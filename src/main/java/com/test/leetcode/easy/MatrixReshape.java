@@ -1,4 +1,4 @@
-package com.test.leetcode.problems;
+package com.test.leetcode.easy;
 
 /**
  * Created by ben on 2017/5/14.
