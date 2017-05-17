@@ -12,10 +12,18 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        CountingBits countingBits = new CountingBits();
-        int[] ints = countingBits.countBits(8);
+        FindBottomLeftTreeValue.TreeNode node = new FindBottomLeftTreeValue.TreeNode(2);
+        node.left = new FindBottomLeftTreeValue.TreeNode(1);
+        node.right = new FindBottomLeftTreeValue.TreeNode(3);
+        FindBottomLeftTreeValue findBottomLeftTreeValue = new FindBottomLeftTreeValue();
+        int bottomLeftValue = findBottomLeftTreeValue.findBottomLeftValue(node);
 
-        out.print(Arrays.toString(ints));
+        out.print(bottomLeftValue);
+
+//        CountingBits countingBits = new CountingBits();
+//        int[] ints = countingBits.countBits(8);
+//
+//        out.print(Arrays.toString(ints));
 
 
 //        EncodeAndDecodeTinyURL encodeAndDecodeTinyURL = new EncodeAndDecodeTinyURL();
