@@ -13,10 +13,24 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        int[] nums = {1,3,-1,-3,5,3,6,7};
-        SlidingWindowMedian slidingWindowMedian = new SlidingWindowMedian();
-        double[] doubles = slidingWindowMedian.medianSlidingWindow(nums, 3);
-        out.print(Arrays.toString(doubles));
+        int[] a = {1, 2, 3, 4,5,6};
+        ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
+        int i = arithmeticSlices.numberOfArithmeticSlices(a);
+        out.print(i);
+
+//        int[][] people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
+//        QueueReconstructionByHeight queueReconstructionByHeight = new QueueReconstructionByHeight();
+//        int[][] ints = queueReconstructionByHeight.reconstructQueue(people);
+//
+//        for (int i = 0; i < ints.length; i++) {
+//            out.println(Arrays.toString(ints[i]));
+//        }
+
+
+//        int[] nums = {1,3,-1,-3,5,3,6,7};
+//        SlidingWindowMedian slidingWindowMedian = new SlidingWindowMedian();
+//        double[] doubles = slidingWindowMedian.medianSlidingWindow(nums, 3);
+//        out.print(Arrays.toString(doubles));
 
 //        FindBottomLeftTreeValue.TreeNode node = new FindBottomLeftTreeValue.TreeNode(2);
 //        node.left = new FindBottomLeftTreeValue.TreeNode(1);
