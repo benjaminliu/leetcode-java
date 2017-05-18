@@ -1,5 +1,6 @@
 package com.test.leetcode;
 
+import com.test.leetcode.hard.SlidingWindowMedian;
 import com.test.leetcode.medium.*;
 
 import java.util.Arrays;
@@ -12,13 +13,18 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        FindBottomLeftTreeValue.TreeNode node = new FindBottomLeftTreeValue.TreeNode(2);
-        node.left = new FindBottomLeftTreeValue.TreeNode(1);
-        node.right = new FindBottomLeftTreeValue.TreeNode(3);
-        FindBottomLeftTreeValue findBottomLeftTreeValue = new FindBottomLeftTreeValue();
-        int bottomLeftValue = findBottomLeftTreeValue.findBottomLeftValue(node);
+        int[] nums = {1,3,-1,-3,5,3,6,7};
+        SlidingWindowMedian slidingWindowMedian = new SlidingWindowMedian();
+        double[] doubles = slidingWindowMedian.medianSlidingWindow(nums, 3);
+        out.print(Arrays.toString(doubles));
 
-        out.print(bottomLeftValue);
+//        FindBottomLeftTreeValue.TreeNode node = new FindBottomLeftTreeValue.TreeNode(2);
+//        node.left = new FindBottomLeftTreeValue.TreeNode(1);
+//        node.right = new FindBottomLeftTreeValue.TreeNode(3);
+//        FindBottomLeftTreeValue findBottomLeftTreeValue = new FindBottomLeftTreeValue();
+//        int bottomLeftValue = findBottomLeftTreeValue.findBottomLeftValue(node);
+//
+//        out.print(bottomLeftValue);
 
 //        CountingBits countingBits = new CountingBits();
 //        int[] ints = countingBits.countBits(8);
