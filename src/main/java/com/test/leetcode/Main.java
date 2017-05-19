@@ -4,6 +4,7 @@ import com.test.leetcode.hard.SlidingWindowMedian;
 import com.test.leetcode.medium.*;
 
 import java.util.Arrays;
+import java.util.List;
 
 import static java.lang.System.out;
 
@@ -13,10 +14,31 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        int[] a = {1, 2, 3, 4,5,6};
-        ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
-        int i = arithmeticSlices.numberOfArithmeticSlices(a);
-        out.print(i);
+        FindLargestValueInEachTreeRow.TreeNode root = new FindLargestValueInEachTreeRow.TreeNode(1);
+        FindLargestValueInEachTreeRow.TreeNode rootl = new FindLargestValueInEachTreeRow.TreeNode(3);
+        FindLargestValueInEachTreeRow.TreeNode rootr = new FindLargestValueInEachTreeRow.TreeNode(2);
+        root.left = rootl;
+        root.right = rootr;
+
+        FindLargestValueInEachTreeRow.TreeNode root5 = new FindLargestValueInEachTreeRow.TreeNode(5);
+        FindLargestValueInEachTreeRow.TreeNode root3 = new FindLargestValueInEachTreeRow.TreeNode(3);
+        FindLargestValueInEachTreeRow.TreeNode root9 = new FindLargestValueInEachTreeRow.TreeNode(9);
+
+        rootl.left = root5;
+        rootl.right = root3;
+
+        rootr.right = root9;
+
+        FindLargestValueInEachTreeRow findLargestValueInEachTreeRow = new FindLargestValueInEachTreeRow();
+        List<Integer> integers = findLargestValueInEachTreeRow.largestValues(root);
+
+        out.print(integers);
+
+
+//        int[] a = {1, 2, 3, 4,5,6};
+//        ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
+//        int i = arithmeticSlices.numberOfArithmeticSlices(a);
+//        out.print(i);
 
 //        int[][] people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
 //        QueueReconstructionByHeight queueReconstructionByHeight = new QueueReconstructionByHeight();
