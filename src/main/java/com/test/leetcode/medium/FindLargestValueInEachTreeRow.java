@@ -1,21 +1,13 @@
 package com.test.leetcode.medium;
 
+import com.test.leetcode.common.TreeNode;
+
 import java.util.*;
 
 /**
  * Created by ben on 2017/5/19.
  */
 public class FindLargestValueInEachTreeRow {
-
-    public static class TreeNode {
-        int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
-        }
-    }
 
     public class TreeNodeWarpper {
         TreeNode node;

@@ -1,6 +1,8 @@
 package com.test.leetcode.medium;
 
 
+import com.test.leetcode.common.TreeNode;
+
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -63,16 +65,4 @@ public class FindBottomLeftTreeValue {
             return depth;
         }
     }
-
-
-    public static class TreeNode {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x) {
-            val = x;
-        }
-    }
-
 }

@@ -1,5 +1,6 @@
 package com.test.leetcode;
 
+import com.test.leetcode.common.TreeNode;
 import com.test.leetcode.hard.SlidingWindowMedian;
 import com.test.leetcode.medium.*;
 
@@ -14,25 +15,40 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        FindLargestValueInEachTreeRow.TreeNode root = new FindLargestValueInEachTreeRow.TreeNode(1);
-        FindLargestValueInEachTreeRow.TreeNode rootl = new FindLargestValueInEachTreeRow.TreeNode(3);
-        FindLargestValueInEachTreeRow.TreeNode rootr = new FindLargestValueInEachTreeRow.TreeNode(2);
-        root.left = rootl;
-        root.right = rootr;
+        String s ="tree";
+        SortCharactersByFrequency sortCharactersByFrequency = new SortCharactersByFrequency();
+        String s1 = sortCharactersByFrequency.frequencySort(s);
+        out.print(s1);
 
-        FindLargestValueInEachTreeRow.TreeNode root5 = new FindLargestValueInEachTreeRow.TreeNode(5);
-        FindLargestValueInEachTreeRow.TreeNode root3 = new FindLargestValueInEachTreeRow.TreeNode(3);
-        FindLargestValueInEachTreeRow.TreeNode root9 = new FindLargestValueInEachTreeRow.TreeNode(9);
+//        TreeNode root = new TreeNode(5);
+//        TreeNode root2 = new TreeNode(2);
+//        TreeNode root3 = new TreeNode(-5);
+//        root.left = root2;
+//        root.right = root3;
+//
+//        MostFrequentSubtreeSum mostFrequentSubtreeSum = new MostFrequentSubtreeSum();
+//        int[] frequentTreeSum = mostFrequentSubtreeSum.findFrequentTreeSum(root);
+//        out.print(Arrays.toString(frequentTreeSum));
 
-        rootl.left = root5;
-        rootl.right = root3;
-
-        rootr.right = root9;
-
-        FindLargestValueInEachTreeRow findLargestValueInEachTreeRow = new FindLargestValueInEachTreeRow();
-        List<Integer> integers = findLargestValueInEachTreeRow.largestValues(root);
-
-        out.print(integers);
+//        TreeNode root = new TreeNode(1);
+//        TreeNode rootl = new TreeNode(3);
+//        TreeNode rootr = new TreeNode(2);
+//        root.left = rootl;
+//        root.right = rootr;
+//
+//        TreeNode root5 = new TreeNode(5);
+//        TreeNode root3 = new TreeNode(3);
+//        TreeNode root9 = new TreeNode(9);
+//
+//        rootl.left = root5;
+//        rootl.right = root3;
+//
+//        rootr.right = root9;
+//
+//        FindLargestValueInEachTreeRow findLargestValueInEachTreeRow = new FindLargestValueInEachTreeRow();
+//        List<Integer> integers = findLargestValueInEachTreeRow.largestValues(root);
+//
+//        out.print(integers);
 
 
 //        int[] a = {1, 2, 3, 4,5,6};
