@@ -15,10 +15,21 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        String s ="tree";
-        SortCharactersByFrequency sortCharactersByFrequency = new SortCharactersByFrequency();
-        String s1 = sortCharactersByFrequency.frequencySort(s);
-        out.print(s1);
+
+//        String e = "-1/2+1/2";
+        String e = "1/3-1/2";
+        FractionAdditionAndSubtraction fractionAdditionAndSubtraction = new FractionAdditionAndSubtraction();
+        String s = fractionAdditionAndSubtraction.fractionAddition(e);
+        out.print(s);
+
+//        int[] nums = {1, 2, 3, 4};
+//        ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
+//        int[] ints = productOfArrayExceptSelf.productExceptSelf(nums);
+//        out.print(Arrays.toString(ints));
+//        String s ="tree";
+//        SortCharactersByFrequency sortCharactersByFrequency = new SortCharactersByFrequency();
+//        String s1 = sortCharactersByFrequency.frequencySort(s);
+//        out.print(s1);
 
 //        TreeNode root = new TreeNode(5);
 //        TreeNode root2 = new TreeNode(2);
