@@ -1,6 +1,9 @@
 package com.test.leetcode;
 
 import com.test.leetcode.common.TreeNode;
+import com.test.leetcode.easy.IslandPerimeter;
+import com.test.leetcode.easy.NextGreaterElementI;
+import com.test.leetcode.easy.SingleNumber;
 import com.test.leetcode.hard.SlidingWindowMedian;
 import com.test.leetcode.medium.*;
 
@@ -16,11 +19,29 @@ import static java.lang.System.out;
 public class Main {
     public static void main(String args[]) {
 
+        int[] nums = {2, 2, 1};
+        SingleNumber s = new SingleNumber();
+        int i = s.singleNumber(nums);
+        out.print(i);
+
+//        int[][] nums = {{1, 1, 1, 1}, {1, 0, 0, 1}, {1,0, 0, 1}, {1, 0, 1, 1}};
+//        IslandPerimeter perimeter = new IslandPerimeter();
+//        int i = perimeter.islandPerimeter2(nums);
+//        out.print(i);
+
+//        int[] nums1 = {4, 1, 2};
+//        int[] nums2 = {1, 3, 4, 2};
+//
+//        NextGreaterElementI n = new NextGreaterElementI();
+//        int[] ints = n.nextGreaterElement(nums1, nums2);
+//        out.print(Arrays.toString(ints));
+
+
 //        String e = "-1/2+1/2";
-        String e = "1/3-1/2";
-        FractionAdditionAndSubtraction fractionAdditionAndSubtraction = new FractionAdditionAndSubtraction();
-        String s = fractionAdditionAndSubtraction.fractionAddition(e);
-        out.print(s);
+//        String e = "1/3-1/2";
+//        FractionAdditionAndSubtraction fractionAdditionAndSubtraction = new FractionAdditionAndSubtraction();
+//        String s = fractionAdditionAndSubtraction.fractionAddition(e);
+//        out.print(s);
 
 //        int[] nums = {1, 2, 3, 4};
 //        ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
