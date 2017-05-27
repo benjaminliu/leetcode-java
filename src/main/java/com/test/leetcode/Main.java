@@ -1,11 +1,9 @@
 package com.test.leetcode;
 
-import com.test.leetcode.common.TreeNode;
-import com.test.leetcode.easy.IslandPerimeter;
-import com.test.leetcode.easy.NextGreaterElementI;
-import com.test.leetcode.easy.SingleNumber;
-import com.test.leetcode.hard.SlidingWindowMedian;
+import com.test.leetcode.common.*;
+import com.test.leetcode.easy.*;
 import com.test.leetcode.medium.*;
+import com.test.leetcode.hard.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,11 +16,28 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
+        TwoSumIIInputarrayIsSorted t = new TwoSumIIInputarrayIsSorted();
+        int[] ints = t.twoSum(new int[]{5,25,75}, 100);
+        out.print(Arrays.toString(ints));
 
-        int[] nums = {2, 2, 1};
-        SingleNumber s = new SingleNumber();
-        int i = s.singleNumber(nums);
-        out.print(i);
+//        AddDigits a = new AddDigits();
+//        int i = a.addDigits(10);
+//        out.print(i);
+
+//        TreeNode node = new TreeNode(0);
+//        MaximumDepthOfBinaryTree m = new MaximumDepthOfBinaryTree();
+//        int i = m.maxDepth(node);
+//        out.print(i);
+
+//        int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
+//        FindAllNumbersDisappearedInAnArray a = new FindAllNumbersDisappearedInAnArray();
+//        List<Integer> disappearedNumbers = a.findDisappearedNumbers(nums);
+//        out.print(disappearedNumbers);
+
+//        int[] nums = {2, 2, 1};
+//        SingleNumber s = new SingleNumber();
+//        int i = s.singleNumber(nums);
+//        out.print(i);
 
 //        int[][] nums = {{1, 1, 1, 1}, {1, 0, 0, 1}, {1,0, 0, 1}, {1, 0, 1, 1}};
 //        IslandPerimeter perimeter = new IslandPerimeter();
