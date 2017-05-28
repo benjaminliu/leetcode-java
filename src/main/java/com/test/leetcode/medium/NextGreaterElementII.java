@@ -5,6 +5,6 @@ package com.test.leetcode.medium;
  */
 public class NextGreaterElementII {
     public int[] nextGreaterElements(int[] nums) {
-
+        return null;
     }
 }
