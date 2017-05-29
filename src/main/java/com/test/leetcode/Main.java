@@ -16,16 +16,19 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
+        FirstUniqueCharacterInAString f = new FirstUniqueCharacterInAString();
+        int leetcode = f.firstUniqChar("leetcode");
+        out.print(leetcode);
 
-        TreeNode root = new TreeNode(1);
-        TreeNode left = new TreeNode(2);
-        TreeNode right = new TreeNode(3);
-        root.left = left;
-        root.right = right;
-
-        BinaryTreeTilt b = new BinaryTreeTilt();
-        int tilt = b.findTilt(root);
-        out.print(tilt);
+//        TreeNode root = new TreeNode(1);
+//        TreeNode left = new TreeNode(2);
+//        TreeNode right = new TreeNode(3);
+//        root.left = left;
+//        root.right = right;
+//
+//        BinaryTreeTilt b = new BinaryTreeTilt();
+//        int tilt = b.findTilt(root);
+//        out.print(tilt);
 
 //        TwoSumIIInputarrayIsSorted t = new TwoSumIIInputarrayIsSorted();
 //        int[] ints = t.twoSum(new int[]{5,25,75}, 100);
