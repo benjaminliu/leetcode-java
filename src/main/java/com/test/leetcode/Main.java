@@ -16,9 +16,14 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        FirstUniqueCharacterInAString f = new FirstUniqueCharacterInAString();
-        int leetcode = f.firstUniqChar("leetcode");
-        out.print(leetcode);
+        MajorityElement m = new MajorityElement();
+        int i = m.majorityElement(new int[]{1});
+        out.print(i);
+
+
+//        FirstUniqueCharacterInAString f = new FirstUniqueCharacterInAString();
+//        int leetcode = f.firstUniqChar("leetcode");
+//        out.print(leetcode);
 
 //        TreeNode root = new TreeNode(1);
 //        TreeNode left = new TreeNode(2);
