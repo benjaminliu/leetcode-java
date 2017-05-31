@@ -16,9 +16,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        MajorityElement m = new MajorityElement();
-        int i = m.majorityElement(new int[]{1});
-        out.print(i);
+        ReverseStringII r = new ReverseStringII();
+        String abcd = r.reverseStr("dcbagfe", 4);
+        out.print(abcd);
+
+//        MajorityElement m = new MajorityElement();
+//        int i = m.majorityElement(new int[]{1});
+//        out.print(i);
 
 
 //        FirstUniqueCharacterInAString f = new FirstUniqueCharacterInAString();
