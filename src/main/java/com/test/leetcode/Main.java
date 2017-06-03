@@ -16,9 +16,20 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        ReverseStringII r = new ReverseStringII();
-        String abcd = r.reverseStr("dcbagfe", 4);
-        out.print(abcd);
+        NumberOfIslandsII n = new NumberOfIslandsII();
+        List<Integer> integers = n.numIslands2(3, 3, new int[][]{{0, 0}, {0, 1}, {1, 2}, {2, 1}});
+        for (int i : integers) {
+            out.println(i);
+        }
+
+
+//        NumberOfIslands n = new NumberOfIslands();
+//        int i = n.numIslands(new char[][]{{'1'}});
+//        out.print(i);
+
+//        ReverseStringII r = new ReverseStringII();
+//        String abcd = r.reverseStr("dcbagfe", 4);
+//        out.print(abcd);
 
 //        MajorityElement m = new MajorityElement();
 //        int i = m.majorityElement(new int[]{1});
