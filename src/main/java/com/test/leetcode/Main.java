@@ -16,9 +16,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        ReverseStringII r = new ReverseStringII();
-        String abcd = r.reverseStr("dcbagfe", 4);
-        out.print(abcd);
+        SlidingWindowMaximum s = new SlidingWindowMaximum();
+        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
+        out.print(Arrays.toString(ints));
+
+//        ReverseStringII r = new ReverseStringII();
+//        String abcd = r.reverseStr("dcbagfe", 4);
+//        out.print(abcd);
 
 //        MajorityElement m = new MajorityElement();
 //        int i = m.majorityElement(new int[]{1});
