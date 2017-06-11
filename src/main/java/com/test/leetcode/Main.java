@@ -4,6 +4,8 @@ import com.test.leetcode.common.*;
 import com.test.leetcode.easy.*;
 import com.test.leetcode.medium.*;
 import com.test.leetcode.hard.*;
+import com.test.others.Combinations;
+import com.test.others.Permucations;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,9 +18,15 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        SlidingWindowMaximum s = new SlidingWindowMaximum();
-        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
-        out.print(Arrays.toString(ints));
+        Combinations c = new Combinations("wxyz");
+        c.combine();
+
+//        Permucations p = new Permucations("abcd");
+//        p.permute();
+
+//        SlidingWindowMaximum s = new SlidingWindowMaximum();
+//        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
+//        out.print(Arrays.toString(ints));
 
 //        ReverseStringII r = new ReverseStringII();
 //        String abcd = r.reverseStr("dcbagfe", 4);
