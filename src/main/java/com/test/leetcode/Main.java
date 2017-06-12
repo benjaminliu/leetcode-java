@@ -4,7 +4,9 @@ import com.test.leetcode.common.*;
 import com.test.leetcode.easy.*;
 import com.test.leetcode.medium.*;
 import com.test.leetcode.hard.*;
+import com.test.others.EightQueens;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -16,9 +18,17 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        SlidingWindowMaximum s = new SlidingWindowMaximum();
-        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
-        out.print(Arrays.toString(ints));
+        EightQueens e = new EightQueens();
+        List<Integer[]> res = e.place8Queens();
+
+        for (int i = 0; i < res.size(); i++) {
+            out.println(Arrays.toString(res.get(i)));
+        }
+        out.print(res.size());
+
+//        SlidingWindowMaximum s = new SlidingWindowMaximum();
+//        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
+//        out.print(Arrays.toString(ints));
 
 //        ReverseStringII r = new ReverseStringII();
 //        String abcd = r.reverseStr("dcbagfe", 4);
