@@ -4,9 +4,9 @@ import com.test.leetcode.common.*;
 import com.test.leetcode.easy.*;
 import com.test.leetcode.medium.*;
 import com.test.leetcode.hard.*;
-import com.test.others.EightQueens;
+import com.test.others.Combinations;
+import com.test.others.Permucations;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,13 +18,11 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        EightQueens e = new EightQueens();
-        List<Integer[]> res = e.place8Queens();
+        Combinations c = new Combinations("wxyz");
+        c.combine();
 
-        for (int i = 0; i < res.size(); i++) {
-            out.println(Arrays.toString(res.get(i)));
-        }
-        out.print(res.size());
+//        Permucations p = new Permucations("abcd");
+//        p.permute();
 
 //        SlidingWindowMaximum s = new SlidingWindowMaximum();
 //        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
