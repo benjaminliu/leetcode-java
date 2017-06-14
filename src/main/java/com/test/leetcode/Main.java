@@ -18,8 +18,16 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        Combinations c = new Combinations("wxyz");
-        c.combine();
+        CombinationSumIV c = new CombinationSumIV();
+        int i = c.combinationSum4(new int[]{1, 2, 3}, 4);
+        out.print(i);
+
+//        LicenseKeyFormatting l = new LicenseKeyFormatting();
+//        String aaaa = l.licenseKeyFormatting("2-4A0r7-4k", 4);
+//        out.print(aaaa);
+
+//        Combinations c = new Combinations("wxyz");
+//        c.combine();
 
 //        Permucations p = new Permucations("abcd");
 //        p.permute();

@@ -25,7 +25,7 @@ public class LRUCache1 {
     private Hashtable<Integer, DLinkNode> bucket = new Hashtable<Integer, DLinkNode>();
 
     private void moveToTail(DLinkNode node) {
-        //Take care of Prev realation First
+        //Take care of Prev relation First
         node.prev = this.tail.prev;
         this.tail.prev = node;
 
