@@ -18,9 +18,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        CombinationSumIV c = new CombinationSumIV();
-        int i = c.combinationSum4(new int[]{1, 2, 3}, 4);
-        out.print(i);
+        AddStrings a = new AddStrings();
+
+        String s = a.addStrings("1", "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999");
+        out.print(s);
+//        CombinationSumIV c = new CombinationSumIV();
+//        int i = c.combinationSum4(new int[]{1, 2, 3}, 4);
+//        out.print(i);
 
 //        LicenseKeyFormatting l = new LicenseKeyFormatting();
 //        String aaaa = l.licenseKeyFormatting("2-4A0r7-4k", 4);
