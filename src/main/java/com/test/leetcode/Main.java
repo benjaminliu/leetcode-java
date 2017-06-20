@@ -18,10 +18,22 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        AddStrings a = new AddStrings();
+        SqrtX s = new SqrtX();
+        int i = s.mySqrt1(1);
+        out.print(i);
 
-        String s = a.addStrings("1", "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999");
-        out.print(s);
+//        DivideTwoIntegers d = new DivideTwoIntegers();
+//        int divide = d.divide(100, 5);
+//        out.println(divide);
+
+//        MedianOfTwoSortedArrays m = new MedianOfTwoSortedArrays();
+//        double medianSortedArrays3 = m.findMedianSortedArrays3(new int[]{ 5}, new int[]{1,2, 3, 4, 6, 7, 8, 9});
+//        out.print("result: " + medianSortedArrays3);
+
+//        AddStrings a = new AddStrings();
+//
+//        String s = a.addStrings("1", "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999");
+//        out.print(s);
 //        CombinationSumIV c = new CombinationSumIV();
 //        int i = c.combinationSum4(new int[]{1, 2, 3}, 4);
 //        out.print(i);
