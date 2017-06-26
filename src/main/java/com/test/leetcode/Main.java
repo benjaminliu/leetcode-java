@@ -18,9 +18,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        SqrtX s = new SqrtX();
-        int i = s.mySqrt1(1);
+        BestTimeToBuyAndSellStock b = new BestTimeToBuyAndSellStock();
+        int i = b.maxProfit(new int[]{7, 6, 4, 3, 1});
         out.print(i);
+
+//        SqrtX s = new SqrtX();
+//        int i = s.mySqrt1(1);
+//        out.print(i);
 
 //        DivideTwoIntegers d = new DivideTwoIntegers();
 //        int divide = d.divide(100, 5);
