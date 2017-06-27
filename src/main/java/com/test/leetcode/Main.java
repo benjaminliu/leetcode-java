@@ -18,9 +18,19 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        BestTimeToBuyAndSellStock b = new BestTimeToBuyAndSellStock();
-        int i = b.maxProfit(new int[]{7, 6, 4, 3, 1});
-        out.print(i);
+        ListNode head = new ListNode(3);
+        head.next = new ListNode(5);
+        ReverseLinkedListII r = new ReverseLinkedListII();
+        ListNode listNode = r.reverseBetween(head, 1, 2);
+
+        while (listNode != null) {
+            out.println(listNode.val);
+            listNode = listNode.next;
+        }
+
+//        BestTimeToBuyAndSellStock b = new BestTimeToBuyAndSellStock();
+//        int i = b.maxProfit(new int[]{7, 6, 4, 3, 1});
+//        out.print(i);
 
 //        SqrtX s = new SqrtX();
 //        int i = s.mySqrt1(1);
