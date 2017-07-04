@@ -18,15 +18,29 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        ListNode head = new ListNode(3);
-        head.next = new ListNode(5);
-        ReverseLinkedListII r = new ReverseLinkedListII();
-        ListNode listNode = r.reverseBetween(head, 1, 2);
+        TreeNode root = new TreeNode(1);
+        root.left = null;
+        TreeNode right = new TreeNode(2);
+        right.left = new TreeNode(3);
+        right.right = null;
+//        right.right = new TreeNode(4);
+//        root.left = new TreeNode(5);
+        root.right = right;
+        _94BinaryTreeInorderTraversal b = new _94BinaryTreeInorderTraversal();
+        List<Integer> integers = b.inorderTraversal(root);
 
-        while (listNode != null) {
-            out.println(listNode.val);
-            listNode = listNode.next;
-        }
+        out.print(integers);
+
+//        ListNode head = new ListNode(1);
+//        head.next = new ListNode(2);
+//        head.next.next = new ListNode(3);
+//        ReverseLinkedListII r = new ReverseLinkedListII();
+//        ListNode listNode = r.reverseBetween2(head, 2, 3);
+//
+//        while (listNode != null) {
+//            out.println(listNode.val);
+//            listNode = listNode.next;
+//        }
 
 //        BestTimeToBuyAndSellStock b = new BestTimeToBuyAndSellStock();
 //        int i = b.maxProfit(new int[]{7, 6, 4, 3, 1});
