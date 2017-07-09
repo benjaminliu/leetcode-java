@@ -1,9 +1,9 @@
-package com.test.leetcode.easy._7;
+package com.test.leetcode.easy;
 
 /**
  * Created by ben on 2017/7/9.
  */
-public class ReverseInteger {
+public class _7ReverseInteger {
     public int reverse(int x) {
         int flag = 1;
         if (x < 0) {
