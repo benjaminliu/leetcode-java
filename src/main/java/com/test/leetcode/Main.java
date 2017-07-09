@@ -4,6 +4,7 @@ import com.test.leetcode.common.*;
 import com.test.leetcode.easy.*;
 import com.test.leetcode.medium.*;
 import com.test.leetcode.hard.*;
+import com.test.leetcode.medium._6.ZigZagConversion;
 import com.test.others.Combinations;
 import com.test.others.Permucations;
 
@@ -18,18 +19,32 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        TreeNode root = new TreeNode(1);
-        root.left = null;
-        TreeNode right = new TreeNode(2);
-        right.left = new TreeNode(3);
-        right.right = null;
-//        right.right = new TreeNode(4);
-//        root.left = new TreeNode(5);
-        root.right = right;
-        _94BinaryTreeInorderTraversal b = new _94BinaryTreeInorderTraversal();
-        List<Integer> integers = b.inorderTraversal(root);
+        ZigZagConversion z = new ZigZagConversion();
+        String ab = z.convert("ABcd", 3);
+        out.print(ab);
 
-        out.print(integers);
+//        ListNode l1 = new ListNode(1);
+//        ListNode l2 = new ListNode(9);
+//        l2.next = new ListNode(9);
+//
+//        _2AddTwoNumbers a = new _2AddTwoNumbers();
+//        ListNode listNode = a.addTwoNumbers(l1, l2);
+//
+//        printListNode(listNode);
+
+
+//        TreeNode root = new TreeNode(1);
+//        root.left = null;
+//        TreeNode right = new TreeNode(2);
+//        right.left = new TreeNode(3);
+//        right.right = null;
+////        right.right = new TreeNode(4);
+////        root.left = new TreeNode(5);
+//        root.right = right;
+//        _94BinaryTreeInorderTraversal b = new _94BinaryTreeInorderTraversal();
+//        List<Integer> integers = b.inorderTraversal(root);
+//
+//        out.print(integers);
 
 //        ListNode head = new ListNode(1);
 //        head.next = new ListNode(2);
@@ -223,6 +238,13 @@ public class Main {
 //        String encode = encodeAndDecodeTinyURL.encode(url);
 //        String decode = encodeAndDecodeTinyURL.decode(encode);
 //        System.out.println(decode);
+    }
+
+    private static void printListNode(ListNode listNode) {
+        while (listNode != null) {
+            out.println(listNode.val);
+            listNode = listNode.next;
+        }
     }
 
     private static void easy() {
