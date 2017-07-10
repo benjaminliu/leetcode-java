@@ -50,7 +50,7 @@ public class Main {
 //        int i = s.mySqrt1(1);
 //        out.print(i);
 
-//        DivideTwoIntegers d = new DivideTwoIntegers();
+//        _29DivideTwoIntegers d = new _29DivideTwoIntegers();
 //        int divide = d.divide(100, 5);
 //        out.println(divide);
 
@@ -160,7 +160,7 @@ public class Main {
 //        root.left = root2;
 //        root.right = root3;
 //
-//        MostFrequentSubtreeSum mostFrequentSubtreeSum = new MostFrequentSubtreeSum();
+//        _508MostFrequentSubtreeSum mostFrequentSubtreeSum = new _508MostFrequentSubtreeSum();
 //        int[] frequentTreeSum = mostFrequentSubtreeSum.findFrequentTreeSum(root);
 //        out.print(Arrays.toString(frequentTreeSum));
 

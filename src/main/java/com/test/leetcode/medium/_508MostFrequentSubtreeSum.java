@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/20.
  */
-public class MostFrequentSubtreeSum {
+public class _508MostFrequentSubtreeSum {
     private Map<Integer, Integer> result;
 
     public int[] findFrequentTreeSum(TreeNode root) {
