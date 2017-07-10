@@ -1,7 +1,12 @@
 package com.test;
 
 import com.test.leetcode.common.*;
-import com.test.leetcode.medium._6ZigZagConversion;
+import com.test.leetcode.medium.*;
+import com.test.leetcode.easy.*;
+import com.test.leetcode.hard.*;
+
+
+import java.util.List;
 
 import static java.lang.System.out;
 
@@ -11,9 +16,13 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        _6ZigZagConversion z = new _6ZigZagConversion();
-        String ab = z.convert("ABcd", 3);
-        out.print(ab);
+        _17LetterCombinationsOfAPhoneNumber l = new _17LetterCombinationsOfAPhoneNumber();
+        List<String> strings = l.letterCombinations("2");
+        out.print(strings);
+
+//        _6ZigZagConversion z = new _6ZigZagConversion();
+//        String ab = z.convert("ABcd", 3);
+//        out.print(ab);
 
 //        ListNode l1 = new ListNode(1);
 //        ListNode l2 = new ListNode(9);

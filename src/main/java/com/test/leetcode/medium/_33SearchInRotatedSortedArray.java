@@ -11,13 +11,14 @@ public class _33SearchInRotatedSortedArray {
         int left = nums[0];
         int right = nums.length - 1;
         int mid;
-        while (left <= right){
-            mid = (left+right)/2;
-            if(nums[mid] == target){
+        while (left <= right) {
+            mid = (left + right) / 2;
+            if (nums[mid] == target) {
                 return mid;
             }
 
-            if(nums[mid])
+
         }
+        return 0;
     }
 }
