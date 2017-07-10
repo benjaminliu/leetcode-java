@@ -1,4 +1,4 @@
-package com.test.leetcode;
+package com.test;
 
 import com.test.leetcode.common.*;
 import com.test.leetcode.easy.*;
