@@ -1,15 +1,7 @@
 package com.test;
 
 import com.test.leetcode.common.*;
-import com.test.leetcode.easy.*;
-import com.test.leetcode.medium.*;
-import com.test.leetcode.hard.*;
-import com.test.leetcode.medium._6.ZigZagConversion;
-import com.test.others.Combinations;
-import com.test.others.Permucations;
-
-import java.util.Arrays;
-import java.util.List;
+import com.test.leetcode.medium._6ZigZagConversion;
 
 import static java.lang.System.out;
 
@@ -19,7 +11,7 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        ZigZagConversion z = new ZigZagConversion();
+        _6ZigZagConversion z = new _6ZigZagConversion();
         String ab = z.convert("ABcd", 3);
         out.print(ab);
 

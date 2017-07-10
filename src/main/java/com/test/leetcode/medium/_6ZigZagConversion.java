@@ -1,4 +1,4 @@
-package com.test.leetcode.medium._6;
+package com.test.leetcode.medium;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/7/9.
  */
-public class ZigZagConversion {
+public class _6ZigZagConversion {
     public String convert(String s, int numRows) {
         if (s == null || s.length() < 2) {
             return s;
