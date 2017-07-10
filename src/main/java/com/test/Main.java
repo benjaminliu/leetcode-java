@@ -16,9 +16,14 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        _17LetterCombinationsOfAPhoneNumber l = new _17LetterCombinationsOfAPhoneNumber();
-        List<String> strings = l.letterCombinations("2");
-        out.print(strings);
+
+        _33SearchInRotatedSortedArray s = new _33SearchInRotatedSortedArray();
+        int search = s.search(new int[]{1}, 1);
+        out.print(search);
+
+//        _17LetterCombinationsOfAPhoneNumber l = new _17LetterCombinationsOfAPhoneNumber();
+//        List<String> strings = l.letterCombinations("2");
+//        out.print(strings);
 
 //        _6ZigZagConversion z = new _6ZigZagConversion();
 //        String ab = z.convert("ABcd", 3);
