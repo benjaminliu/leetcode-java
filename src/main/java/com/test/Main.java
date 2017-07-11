@@ -4,6 +4,7 @@ import com.test.leetcode.common.*;
 import com.test.leetcode.medium.*;
 import com.test.leetcode.easy.*;
 import com.test.leetcode.hard.*;
+import com.test.others.*;
 
 
 import java.util.List;
@@ -16,10 +17,21 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
+        MinimumCoinChange m = new MinimumCoinChange();
+        int change = m.change1(10, new int[]{1, 2, 3});
+        out.print(change);
 
-        _33SearchInRotatedSortedArray s = new _33SearchInRotatedSortedArray();
-        int search = s.search(new int[]{1}, 1);
-        out.print(search);
+//        _10RegularExpressionMatching r = new _10RegularExpressionMatching();
+//        boolean match = r.isMatch("aab", "c*a*b");
+//        out.print(match);
+
+//        _60PermutationSequence p = new _60PermutationSequence();
+//        String permutation = p.getPermutation(3, 2);
+//        out.print(permutation);
+
+//        _33SearchInRotatedSortedArray s = new _33SearchInRotatedSortedArray();
+//        int search = s.search(new int[]{1}, 1);
+//        out.print(search);
 
 //        _17LetterCombinationsOfAPhoneNumber l = new _17LetterCombinationsOfAPhoneNumber();
 //        List<String> strings = l.letterCombinations("2");
