@@ -2,8 +2,9 @@ package com.test;
 
 import com.test.leetcode.common.*;
 import com.test.leetcode.medium.*;
-import com.test.leetcode.easy.*;
 import com.test.leetcode.hard.*;
+import com.test.leetcode.easy.*;
+
 import com.test.others.*;
 
 
@@ -17,9 +18,61 @@ import static java.lang.System.out;
  */
 public class Main {
     public static void main(String args[]) {
-        MinimumCoinChange m = new MinimumCoinChange();
-        int change = m.change1(10, new int[]{1, 2, 3});
-        out.print(change);
+        long startTime = System.currentTimeMillis();
+
+
+        ListNode l = new ListNode(1);
+        l.next = new ListNode(2);
+        _19_RemoveNthNodeFromEndOfList r = new _19_RemoveNthNodeFromEndOfList();
+        ListNode listNode = r.removeNthFromEnd(l, 2);
+        printListNode(listNode);
+
+
+//        _567_PermutationInString p = new _567_PermutationInString();
+//        boolean b = p.checkInclusion1("hello", "ooolleooolelh");
+//        out.print(b);
+
+
+//        _18_4Sum s = new _18_4Sum();
+//        List<List<Integer>> lists = s.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
+//        for (List<Integer> list : lists) {
+//            out.println(list);
+//        }
+
+//        _16_3SumClosest s = new _16_3SumClosest();
+//        int i = s.threeSumClosest(new int[]{1, 1, 1,0}, 100);
+//        out.print(i);
+
+//        SumOfSequenceEqualsTarget s = new SumOfSequenceEqualsTarget();
+//        List<List<Integer>> sequences = s.findSequences(100000);
+//        for (List<Integer> list : sequences) {
+//            out.println(list);
+//        }
+
+
+//        _15_3Sum s = new _15_3Sum();
+////        List<List<Integer>> lists = s.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
+//    List<List<Integer>> lists = s.threeSum(new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6});
+//
+//        for (List<Integer> list : lists) {
+//            out.println(list);
+//        }
+
+//        _14LongestCommonPrefix l = new _14LongestCommonPrefix();
+//        String s = l.longestCommonPrefix(new String[]{"c", "c","c"});
+//        out.print(s);
+
+//        _11ContainerWithMostWater c = new _11ContainerWithMostWater();
+//        int i = c.maxArea(new int[]{1, 1});
+//        out.print(i);
+
+//        _532KDiffPairsInAnArray k = new _532KDiffPairsInAnArray();
+//        int pairs = k.findPairs1(new int[]{3, 1, 4, 1, 5}, 2);
+//        out.print(pairs);
+
+//        MinimumCoinChange m = new MinimumCoinChange();
+//        int change = m.change1(10, new int[]{1, 2, 3});
+//        out.print(change);
 
 //        _10RegularExpressionMatching r = new _10RegularExpressionMatching();
 //        boolean match = r.isMatch("aab", "c*a*b");
@@ -256,6 +309,9 @@ public class Main {
 //        String encode = encodeAndDecodeTinyURL.encode(url);
 //        String decode = encodeAndDecodeTinyURL.decode(encode);
 //        System.out.println(decode);
+
+        long endTime = System.currentTimeMillis();
+        System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");
     }
 
     private static void printListNode(ListNode listNode) {
