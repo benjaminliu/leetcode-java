@@ -21,11 +21,16 @@ public class Main {
         long startTime = System.currentTimeMillis();
 
 
-        ListNode l = new ListNode(1);
-        l.next = new ListNode(2);
-        _19_RemoveNthNodeFromEndOfList r = new _19_RemoveNthNodeFromEndOfList();
-        ListNode listNode = r.removeNthFromEnd(l, 2);
-        printListNode(listNode);
+        _354_RussianDollEnvelopes r = new _354_RussianDollEnvelopes();
+        int[][] nums = new int[][]{{5, 4}, {6, 4}, {6, 7}, {2, 3}};
+        int i = r.maxEnvelopes(nums);
+        out.print(i);
+
+//        ListNode l = new ListNode(1);
+//        l.next = new ListNode(2);
+//        _19_RemoveNthNodeFromEndOfList r = new _19_RemoveNthNodeFromEndOfList();
+//        ListNode listNode = r.removeNthFromEnd(l, 2);
+//        printListNode(listNode);
 
 
 //        _567_PermutationInString p = new _567_PermutationInString();
