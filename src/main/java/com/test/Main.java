@@ -10,6 +10,7 @@ import com.test.others.*;
 
 import java.util.List;
 
+import static java.lang.System.lineSeparator;
 import static java.lang.System.out;
 
 
@@ -20,11 +21,57 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
+        _30_SubstringWithConcatenationOfAllWords s = new _30_SubstringWithConcatenationOfAllWords();
+        List<Integer> barfoothefoobarman = s.findSubstring("wordgoodgoodgoodbestword", new String[]{"word", "good", "best", "good"});
+        out.print(barfoothefoobarman);
 
-        _354_RussianDollEnvelopes r = new _354_RussianDollEnvelopes();
-        int[][] nums = new int[][]{{5, 4}, {6, 4}, {6, 7}, {2, 3}};
-        int i = r.maxEnvelopes(nums);
-        out.print(i);
+
+//        int[][] matrix = new int[5][];
+//        matrix[0] = new int[]{1,2,2,3,5};
+//        matrix[1] = new int[]{3,2,3,4,4};
+//        matrix[2] = new int[]{2,4,5,3,1};
+//        matrix[3] = new int[]{6,7,1,4,5};
+//        matrix[4] = new int[]{5,1,1,2,4};
+//
+//        _417_PacificAtlanticWaterFlow p = new _417_PacificAtlanticWaterFlow();
+//        p.pacificAtlantic1(matrix);
+
+
+//        _51_NQueens n = new _51_NQueens();
+//        List<List<String>> lists = n.solveNQueens(4);
+//        for (List<String> l : lists) {
+//            out.println(l);
+//        }
+
+//        _28_ImplementStrStr i = new _28_ImplementStrStr();
+//        int i1 = i.strStr("mississippi", "pi");
+//        out.print(i1);
+
+
+//        _25_ReverseNodesInKGroup r = new _25_ReverseNodesInKGroup();
+//        ListNode root = new ListNode(1);
+//        root.next = new ListNode(2);
+//        root.next.next = new ListNode(3);
+//        root.next.next.next = new ListNode(4);
+//        ListNode listNode = r.reverseKGroup(root, 2);
+//        printListNode(listNode);
+
+//        ListNode root = new ListNode(1);
+//        root.next = new ListNode(2);
+//        root.next.next = new ListNode(3);
+//        root.next.next.next = new ListNode(4);
+//        _24_SwapNodesInPairs s = new _24_SwapNodesInPairs();
+//        ListNode listNode = s.swapPairs(root);
+//        printListNode(listNode);
+
+//        _22_GenerateParentheses g = new _22_GenerateParentheses();
+//        List<String> strings = g.generateParenthesis(1);
+//        out.print(strings);
+
+//        _354_RussianDollEnvelopes r = new _354_RussianDollEnvelopes();
+//        int[][] nums = new int[][]{{5, 4}, {6, 4}, {6, 7}, {2, 3}};
+//        int i = r.maxEnvelopes(nums);
+//        out.print(i);
 
 //        ListNode l = new ListNode(1);
 //        l.next = new ListNode(2);
