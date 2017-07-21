@@ -8,6 +8,7 @@ import com.test.leetcode.easy.*;
 import com.test.others.*;
 
 
+import java.util.Arrays;
 import java.util.List;
 
 import static java.lang.System.lineSeparator;
@@ -21,9 +22,36 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _30_SubstringWithConcatenationOfAllWords s = new _30_SubstringWithConcatenationOfAllWords();
-        List<Integer> barfoothefoobarman = s.findSubstring("wordgoodgoodgoodbestword", new String[]{"word", "good", "best", "good"});
-        out.print(barfoothefoobarman);
+        String[] ss = new String[]{
+                "....5..1.",
+                ".4.3.....",
+                ".....3..1",
+                "8......2.",
+                "..2.7....",
+                ".15......",
+                ".....2...",
+                ".2.9.....",
+                "..4......"};
+
+        char[][] cs = new char[9][];
+        for(int i= 0;i<9;i++){
+            cs[i] = ss[i].toCharArray();
+        }
+
+        _36_ValidSudoku v = new _36_ValidSudoku();
+        boolean validSudoku = v.isValidSudoku(cs);
+
+        out.print(validSudoku);
+
+
+//        _31_NextPermutation n = new _31_NextPermutation();
+//        int[] nums = new int[]{2, 3, 1};
+//        n.nextPermutation(nums);
+//        out.print(Arrays.toString(nums));
+
+//        _30_SubstringWithConcatenationOfAllWords s = new _30_SubstringWithConcatenationOfAllWords();
+//        List<Integer> barfoothefoobarman = s.findSubstring("wordgoodgoodgoodbestword", new String[]{"word", "good", "best", "good"});
+//        out.print(barfoothefoobarman);
 
 
 //        int[][] matrix = new int[5][];
