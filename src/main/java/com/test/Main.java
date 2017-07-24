@@ -22,26 +22,46 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        String[] ss = new String[]{
-                "....5..1.",
-                ".4.3.....",
-                ".....3..1",
-                "8......2.",
-                "..2.7....",
-                ".15......",
-                ".....2...",
-                ".2.9.....",
-                "..4......"};
+        MatrixChainMultiply m = new MatrixChainMultiply();
+        int i = m.matrixChainOrder(new int[]{30, 35, 15, 5, 10, 20, 25});
+        out.print(i);
 
-        char[][] cs = new char[9][];
-        for(int i= 0;i<9;i++){
-            cs[i] = ss[i].toCharArray();
-        }
 
-        _36_ValidSudoku v = new _36_ValidSudoku();
-        boolean validSudoku = v.isValidSudoku(cs);
+//        Knapsack k = new Knapsack();
+//        int knapsack = k.knapsack(new int[][]{{2, 6}, {2, 3}, {6, 5}, {5, 4}, {4, 6}}, 9);
+//        out.print(knapsack);
 
-        out.print(validSudoku);
+//        _32_LongestValidParentheses l = new _32_LongestValidParentheses();
+////        int i = l.longestValidParentheses(")(()()");
+//        int i = l.longestValidParentheses("(()");
+//        out.print(i);
+
+
+//        _331_VerifyPreorderSerializationOfABinary_Tree v = new _331_VerifyPreorderSerializationOfABinary_Tree();
+//        boolean validSerialization = v.isValidSerialization("8,#,5,#,2,5,#,7,9,#,8,#,#,#,#");
+//        out.print(validSerialization);
+
+
+//        String[] ss = new String[]{
+//                "....5..1.",
+//                ".4.3.....",
+//                ".....3..1",
+//                "8......2.",
+//                "..2.7....",
+//                ".15......",
+//                ".....2...",
+//                ".2.9.....",
+//                "..4......"};
+//
+//        char[][] cs = new char[9][];
+//        for(int i= 0;i<9;i++){
+//            cs[i] = ss[i].toCharArray();
+//        }
+//
+//        _36_ValidSudoku v = new _36_ValidSudoku();
+//        boolean validSudoku = v.isValidSudoku(cs);
+//
+//        out.print(validSudoku);
 
 
 //        _31_NextPermutation n = new _31_NextPermutation();

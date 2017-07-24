@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/20.
  */
-public class TeemoAttacking {
+public class _495_TeemoAttacking {
     public int findPoisonedDuration(int[] timeSeries, int duration) {
         if (timeSeries == null || timeSeries.length == 0 || duration < 1) {
             return 0;
