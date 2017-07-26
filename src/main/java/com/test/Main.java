@@ -22,9 +22,14 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        MatrixChainMultiply m = new MatrixChainMultiply();
-        int i = m.matrixChainOrder(new int[]{30, 35, 15, 5, 10, 20, 25});
+        _556_NextGreaterElementIII n = new _556_NextGreaterElementIII();
+        int i = n.nextGreaterElement(1234);
         out.print(i);
+
+
+//        MatrixChainMultiply m = new MatrixChainMultiply();
+//        int i = m.matrixChainOrder(new int[]{30, 35, 15, 5, 10, 20, 25});
+//        out.print(i);
 
 
 //        Knapsack k = new Knapsack();
@@ -411,7 +416,7 @@ public class Main {
 //        System.out.println(decode);
 
         long endTime = System.currentTimeMillis();
-        System.out.println("当前程序耗时：" + (endTime - startTime) + "ms");
+        System.out.println("\n\r当前程序耗时：" + (endTime - startTime) + "ms");
     }
 
     private static void printListNode(ListNode listNode) {
