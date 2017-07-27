@@ -3,7 +3,7 @@ package com.test.leetcode.easy;
 /**
  * Created by ben on 2017/5/14.
  */
-public class MatrixReshape {
+public class _566_ReshapeTheMatrix {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
         int length = r * c;
         int column = nums[0].length;

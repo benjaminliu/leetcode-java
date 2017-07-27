@@ -448,7 +448,7 @@ public class Main {
 //        out.print(i);
 
 //        int[][] nums = new int[][]{{1, 2}, {3, 4}};
-//        MatrixReshape matrixReshape = new MatrixReshape();
+//        _566_ReshapeTheMatrix matrixReshape = new _566_ReshapeTheMatrix();
 //        int[][] ints = matrixReshape.matrixReshape(nums, 1, 4);
 //        out.print(Arrays.toString(ints));
 
