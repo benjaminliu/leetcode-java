@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/22.
  */
-public class FractionAdditionAndSubtraction {
+public class _592_FractionAdditionAndSubtraction {
 
     private static final char ZERO = '0';
 
