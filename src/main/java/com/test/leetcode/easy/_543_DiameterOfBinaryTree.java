@@ -5,7 +5,7 @@ import com.test.leetcode.common.TreeNode;
 /**
  * Created by ben on 2017/6/15.
  */
-public class DiameterOfBinaryTree {
+public class _543_DiameterOfBinaryTree {
     int diameter = 0;
 
     public int diameterOfBinaryTree(TreeNode root) {
