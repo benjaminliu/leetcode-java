@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _632SmallestRange {
+public class _632_SmallestRange {
     public int[] smallestRange(List<List<Integer>> nums) {
         PriorityQueue<Point> pq = new PriorityQueue<>((a, b) -> (a.x - b.x));
         int size = nums.size();

@@ -8,6 +8,7 @@ import com.test.leetcode.easy.*;
 import com.test.others.*;
 
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,9 +23,19 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _556_NextGreaterElementIII n = new _556_NextGreaterElementIII();
-        int i = n.nextGreaterElement(1234);
-        out.print(i);
+        List<List<Integer>> wall = new ArrayList<>();
+        List<Integer> w = new ArrayList<>();
+        w.add(1);
+        w.add(2);
+        w.add(3);
+        w.add(4);
+        wall.add(w);
+        _554_BrickWall b = new _554_BrickWall();
+        int i = b.leastBricks(wall);
+
+//        _556_NextGreaterElementIII n = new _556_NextGreaterElementIII();
+//        int i = n.nextGreaterElement(1234);
+//        out.print(i);
 
 
 //        MatrixChainMultiply m = new MatrixChainMultiply();
@@ -179,7 +190,7 @@ public class Main {
 //        int change = m.change1(10, new int[]{1, 2, 3});
 //        out.print(change);
 
-//        _10RegularExpressionMatching r = new _10RegularExpressionMatching();
+//        _10_RegularExpressionMatching r = new _10_RegularExpressionMatching();
 //        boolean match = r.isMatch("aab", "c*a*b");
 //        out.print(match);
 

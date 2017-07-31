@@ -3,7 +3,7 @@ package com.test.leetcode.hard;
 /**
  * Created by ben on 2017/7/11.
  */
-public class _10RegularExpressionMatching {
+public class _10_RegularExpressionMatching {
 
     public boolean isMatch(String s, String p) {
         if (s == null || p == null) {

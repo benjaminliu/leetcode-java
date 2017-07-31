@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _23MergeKSortedLists {
+public class _23_MergeKSortedLists {
     public ListNode mergeKLists(ListNode[] lists) {
         if (null == lists || lists.length < 1) {
             return null;
