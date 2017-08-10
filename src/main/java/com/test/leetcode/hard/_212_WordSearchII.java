@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/6/2.
  */
-public class WordSearchII {
+public class _212_WordSearchII {
     class Node {
         Node[] child;
         Node parent;

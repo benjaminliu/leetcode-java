@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LRUCache {
+public class _146_LRUCache {
     public class DoubleList {
         int key;
         int val;
@@ -25,7 +25,7 @@ public class LRUCache {
     DoubleList head;
     Map<Integer, DoubleList> map;
 
-    public LRUCache(int capacity) {
+    public _146_LRUCache(int capacity) {
         this.capacity = capacity;
         this.map = new HashMap<Integer, DoubleList>();
         this.head = new DoubleList(0, 0);

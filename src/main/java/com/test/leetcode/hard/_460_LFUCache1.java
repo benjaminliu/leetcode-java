@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LFUCache1 {
+public class _460_LFUCache1 {
     HashMap<Integer, node> map1;
     HashMap<Integer, node[]> map2;
     int size, lowestFreq;
@@ -46,7 +46,7 @@ public class LFUCache1 {
         x.prev = head;
     }
 
-    public LFUCache1(int capacity) {
+    public _460_LFUCache1(int capacity) {
         map1 = new HashMap<Integer, node>();
         map2 = new HashMap<Integer, node[]>();
         size = capacity;

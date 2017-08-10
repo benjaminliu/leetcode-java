@@ -23,11 +23,15 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _46_Permutations p = new _46_Permutations();
-        List<List<Integer>> permute = p.permute(new int[]{1, 2, 3});
-        for(List<Integer> per : permute){
-            out.println(per);
-        }
+        _522_LongestUncommonSubsequenceII l = new _522_LongestUncommonSubsequenceII();
+        int luSlength = l.findLUSlength(new String[]{"abcde", "abcde", ""});
+        out.print(luSlength);
+
+//        _46_Permutations p = new _46_Permutations();
+//        List<List<Integer>> permute = p.permute(new int[]{1, 2, 3});
+//        for(List<Integer> per : permute){
+//            out.println(per);
+//        }
 
 //        _43_MultiplyStrings m = new _43_MultiplyStrings();
 //        String multiply = m.multiply("99", "99");
@@ -293,7 +297,7 @@ public class Main {
 //        int divide = d.divide(100, 5);
 //        out.println(divide);
 
-//        MedianOfTwoSortedArrays m = new MedianOfTwoSortedArrays();
+//        _4_MedianOfTwoSortedArrays m = new _4_MedianOfTwoSortedArrays();
 //        double medianSortedArrays3 = m.findMedianSortedArrays3(new int[]{ 5}, new int[]{1,2, 3, 4, 6, 7, 8, 9});
 //        out.print("result: " + medianSortedArrays3);
 
@@ -315,7 +319,7 @@ public class Main {
 //        Permucations p = new Permucations("abcd");
 //        p.permute();
 
-//        SlidingWindowMaximum s = new SlidingWindowMaximum();
+//        _239_SlidingWindowMaximum s = new _239_SlidingWindowMaximum();
 //        int[] ints = s.maxSlidingWindow2(new int[]{8, 7, 6, 5, 4, 10, 3, 2, 1}, 3);
 //        out.print(Arrays.toString(ints));
 
@@ -439,7 +443,7 @@ public class Main {
 
 
 //        int[] nums = {1,3,-1,-3,5,3,6,7};
-//        SlidingWindowMedian slidingWindowMedian = new SlidingWindowMedian();
+//        _480_SlidingWindowMedian slidingWindowMedian = new _480_SlidingWindowMedian();
 //        double[] doubles = slidingWindowMedian.medianSlidingWindow(nums, 3);
 //        out.print(Arrays.toString(doubles));
 

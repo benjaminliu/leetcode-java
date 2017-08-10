@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/5/18.
  */
-public class SlidingWindowMedian {
+public class _480_SlidingWindowMedian {
     private PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
     private PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(new Comparator<Integer>() {
         public int compare(Integer o1, Integer o2) {

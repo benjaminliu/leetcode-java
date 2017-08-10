@@ -6,7 +6,7 @@ import java.util.PriorityQueue;
 /**
  * Created by ben on 2017/5/18.
  */
-public class FindMedianFromDataStream {
+public class _295_FindMedianFromDataStream {
     private PriorityQueue<Integer> minHeap = new PriorityQueue<Integer>();
     private PriorityQueue<Integer> maxHeap = new PriorityQueue<Integer>(new Comparator<Integer>() {
         public int compare(Integer o1, Integer o2) {
@@ -14,7 +14,7 @@ public class FindMedianFromDataStream {
         }
     });
 
-    public FindMedianFromDataStream() {
+    public _295_FindMedianFromDataStream() {
 
     }
 

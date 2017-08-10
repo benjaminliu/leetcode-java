@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/6/3.
  */
-public class NumberOfIslandsII {
+public class _305_NumberOfIslandsII {
     public List<Integer> numIslands2(int m, int n, int[][] positions) {
         if (m == 0 || n == 0 || positions == null || positions.length == 0 || positions[0] == null || positions[0].length == 0) {
             return new ArrayList<>();

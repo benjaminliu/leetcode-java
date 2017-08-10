@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Created by ben on 2017/5/18.
  */
-public class MedianOfTwoSortedArrays {
+public class _4_MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int len = nums1.length + nums2.length;
         if (len % 2 == 1) {

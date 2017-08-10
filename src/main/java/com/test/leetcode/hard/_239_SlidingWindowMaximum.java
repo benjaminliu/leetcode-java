@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 /**
  * Created by ben on 2017/6/5.
  */
-public class SlidingWindowMaximum {
+public class _239_SlidingWindowMaximum {
     private PriorityQueue<Integer> pq = new PriorityQueue<>(new Comparator<Integer>() {
 
 

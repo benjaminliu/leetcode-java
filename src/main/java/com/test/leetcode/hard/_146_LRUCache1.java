@@ -5,7 +5,7 @@ import java.util.Hashtable;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LRUCache1 {
+public class _146_LRUCache1 {
     class DLinkNode {
         int key;
         int value;
@@ -39,7 +39,7 @@ public class LRUCache1 {
         node.next.prev = node.prev;
     }
 
-    public LRUCache1(int capacity) {
+    public _146_LRUCache1(int capacity) {
         this.capacity = capacity;
         this.count = 0;
 

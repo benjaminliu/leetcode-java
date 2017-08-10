@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by ben on 2017/6/2.
  */
-public class WordSearch {
+public class _79_WordSearch {
     public boolean exist(char[][] board, String word) {
         if (null == board || 0 == board.length || null == board[0] || 0 == board[0].length) {
             return false;

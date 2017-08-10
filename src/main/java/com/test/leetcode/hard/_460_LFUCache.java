@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LFUCache {
+public class _460_LFUCache {
     public class CacheItem {
         int key;
         int val;
@@ -29,7 +29,7 @@ public class LFUCache {
     private int capacity;
     private double sequence;
 
-    public LFUCache(int capacity) {
+    public _460_LFUCache(int capacity) {
         map = new HashMap<>(capacity);
         this.capacity = capacity;
     }

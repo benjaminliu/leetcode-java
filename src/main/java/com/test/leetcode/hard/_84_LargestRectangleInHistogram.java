@@ -5,7 +5,7 @@ import java.util.Stack;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LargestRectangleInHistogram {
+public class _84_LargestRectangleInHistogram {
     public int largestRectangleArea(int[] heights) {
         if (null == heights || heights.length == 0) {
             return 0;
