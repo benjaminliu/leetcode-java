@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _5LongestPalindromicSubstring {
+public class _5_LongestPalindromicSubstring {
     private int lo, maxLen;
 
     public String longestPalindrome(String s) {
@@ -29,18 +29,18 @@ public class _5LongestPalindromicSubstring {
         }
     }
 
-    //¶¯Ì¬¹æ»®Ëã·¨
+    //ï¿½ï¿½Ì¬ï¿½æ»®ï¿½ã·¨
     public String longestPalindrome1(String s1) {
         char[] s = s1.toCharArray();
         int strLen = s.length;
         int begin = 0;
         int maxLen = 1;
         boolean[][] table = new boolean[strLen][strLen];
-        //Ç°ÆÚµÄ³õÊ¼»¯1: ¶ÀÁ¢µÄÒ»¸ö×Ö·ûÒ²ÊÇ»ØÎÄ°¡
+        //Ç°ï¿½ÚµÄ³ï¿½Ê¼ï¿½ï¿½1: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½Ò²ï¿½Ç»ï¿½ï¿½Ä°ï¿½
         for (int i = 0; i < strLen; i++) {
             table[i][i] = true;
         }
-        //Ç°ÆÚµÄ³õÊ¼»¯2£ºÁ½¸öÏàµÈµÄÏàÁÚ×Ö·ûµ±È»Ò²ÊÇ
+        //Ç°ï¿½ÚµÄ³ï¿½Ê¼ï¿½ï¿½2ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½È»Ò²ï¿½ï¿½
         for (int i = 0; i < strLen - 1; i++) {
             if (s[i] == s[i + 1]) {
                 table[i][i + 1] = true;
@@ -48,12 +48,12 @@ public class _5LongestPalindromicSubstring {
                 maxLen = 2;
             }
         }
-        //µÝÍÆ3£ºÑ°ÕÒ³¤¶ÈÎª3¼°ÆäÒÔÉÏµÄ»ØÎÄ×Ó´®
-        for (int len = 3; len <= strLen; len++) //µ±Ç°×Ó´®µÄ³¤¶Èlen
+        //ï¿½ï¿½ï¿½ï¿½3ï¿½ï¿½Ñ°ï¿½Ò³ï¿½ï¿½ï¿½Îª3ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÄ»ï¿½ï¿½ï¿½ï¿½Ó´ï¿½
+        for (int len = 3; len <= strLen; len++) //ï¿½ï¿½Ç°ï¿½Ó´ï¿½ï¿½Ä³ï¿½ï¿½ï¿½len
         {
-            for (int i = 0; i < strLen - len + 1; i++) //µ±Ç°×Ó´®ÆðÊ¼Î»ÖÃi
+            for (int i = 0; i < strLen - len + 1; i++) //ï¿½ï¿½Ç°ï¿½Ó´ï¿½ï¿½ï¿½Ê¼Î»ï¿½ï¿½i
             {
-                int j = i + len - 1; //×Ó´®Ä©Î²Î»ÖÃj     --¡·j-i=len-1
+                int j = i + len - 1; //ï¿½Ó´ï¿½Ä©Î²Î»ï¿½ï¿½j     --ï¿½ï¿½j-i=len-1
                 if (s[i] == s[j] && table[i + 1][j - 1]) {
                     table[i][j] = true;
                     begin = i;

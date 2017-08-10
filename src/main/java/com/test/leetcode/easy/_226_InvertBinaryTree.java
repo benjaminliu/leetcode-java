@@ -5,7 +5,7 @@ import com.test.leetcode.common.TreeNode;
 /**
  * Created by ben on 2017/5/27.
  */
-public class _226InvertBinaryTree {
+public class _226_InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         if (null == root) {
             return root;

@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/7/12.
  */
-public class _11ContainerWithMostWater {
+public class _11_ContainerWithMostWater {
     public int maxArea(int[] height) {
         if (height.length < 2) return 0;
         int ans = 0;

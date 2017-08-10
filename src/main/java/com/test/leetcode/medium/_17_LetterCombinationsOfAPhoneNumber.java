@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/7/10.
  */
-public class _17LetterCombinationsOfAPhoneNumber {
+public class _17_LetterCombinationsOfAPhoneNumber {
     private final String[] table = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
     private final char zero = '0';
     private List<String> result;

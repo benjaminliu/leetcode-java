@@ -9,7 +9,7 @@ import java.util.Stack;
 /**
  * Created by ben on 2017/7/4.
  */
-public class _94BinaryTreeInorderTraversal {
+public class _94_BinaryTreeInorderTraversal {
 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();

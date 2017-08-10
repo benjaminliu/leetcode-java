@@ -8,7 +8,7 @@ import java.util.TreeSet;
 /**
  * Created by ben on 2017/7/12.
  */
-public class _532KDiffPairsInAnArray {
+public class _532_KDiffPairsInAnArray {
     public int findPairs(int[] nums, int k) {
         if (null == nums || nums.length < 1) {
             return 0;

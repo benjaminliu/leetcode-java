@@ -5,7 +5,7 @@ import com.test.leetcode.common.ListNode;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _2AddTwoNumbers {
+public class _2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (null == l1) {
             return l2;

@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/6/2.
  */
-public class _29DivideTwoIntegers {
+public class _29_DivideTwoIntegers {
     public int divide(int dividend, int divisor) {
         //1. check overflow: 2 ways of over flow
         // 1) 0 divisor;

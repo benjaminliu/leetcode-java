@@ -5,7 +5,7 @@ import com.test.leetcode.common.ListNode;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _21MergeTwoSortedLists {
+public class _21_MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (null == l1) {
             return l2;

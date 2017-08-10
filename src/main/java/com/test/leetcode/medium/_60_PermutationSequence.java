@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/7/11.
  */
-public class _60PermutationSequence {
+public class _60_PermutationSequence {
     public String getPermutation(int n, int k) {
         int[] nums = new int[n];
         nums[0] = 1;

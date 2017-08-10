@@ -1,9 +1,10 @@
 package com.test.leetcode.hard;
 
 import com.test.leetcode.common.ListNode;
-import com.test.leetcode.easy._21MergeTwoSortedLists;
 
 import java.util.PriorityQueue;
+
+import com.test.leetcode.easy._21_MergeTwoSortedLists;
 
 /**
  * Created by ben on 2017/7/9.
@@ -38,18 +39,18 @@ public class _23_MergeKSortedLists {
         return header;
     }
 
-    private _21MergeTwoSortedLists m2 = new _21MergeTwoSortedLists();
+    private _21_MergeTwoSortedLists m2 = new _21_MergeTwoSortedLists();
 
     public ListNode mergeKLists1(ListNode[] lists) {
-        if(lists == null || lists.length == 0 ){
+        if (lists == null || lists.length == 0) {
             return null;
         }
-        return mergeKLists(lists,0,lists.length-1);
+        return mergeKLists(lists, 0, lists.length - 1);
     }
 
-    public ListNode mergeKLists(ListNode[] lists, int left, int right){
-        if(left < right){
-            int mid = (left + right)/2;
+    public ListNode mergeKLists(ListNode[] lists, int left, int right) {
+        if (left < right) {
+            int mid = (left + right) / 2;
             return m2.mergeTwoLists(mergeKLists(lists, left, mid), mergeKLists(lists, mid + 1, right));
         }
         return lists[left];

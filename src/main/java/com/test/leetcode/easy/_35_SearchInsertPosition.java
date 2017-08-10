@@ -3,7 +3,7 @@ package com.test.leetcode.easy;
 /**
  * Created by ben on 2017/7/7.
  */
-public class _35SearchInsertPosition {
+public class _35_SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if (null == nums || nums.length < 1) {
             return -1;

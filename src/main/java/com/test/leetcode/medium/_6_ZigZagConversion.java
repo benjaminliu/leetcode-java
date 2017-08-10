@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/7/9.
  */
-public class _6ZigZagConversion {
+public class _6_ZigZagConversion {
     public String convert(String s, int numRows) {
         if (s == null || s.length() < 2) {
             return s;
