@@ -35,7 +35,7 @@ public class _522_LongestUncommonSubsequenceII {
         int ret = -1;
         for (int i = 0; i < strs.length; i++) {
             int j = 0;
-            for (j = 0; j < strs.length; j++) {
+            for (; j < strs.length; j++) {
                 if (i == j) continue;
                 if (isSubsequence1(strs[i], strs[j])) break;
             }

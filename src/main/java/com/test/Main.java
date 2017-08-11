@@ -23,9 +23,27 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _522_LongestUncommonSubsequenceII l = new _522_LongestUncommonSubsequenceII();
-        int luSlength = l.findLUSlength(new String[]{"abcde", "abcde", ""});
-        out.print(luSlength);
+        _50_Pow p = new _50_Pow();
+        double v = p.myPow(2.00000,
+                -2147483648);
+        out.print(v);
+
+//        _49_GroupAnagrams g = new _49_GroupAnagrams();
+//      //  String[] ss = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
+//        String[] ss = new String[]{"yak","rum","yak","tip","pep","feb","paw"};
+////        String[] ss = new String[]{"cab","tin","pew","duh","may","ill","buy","bar","max","doc"};
+//        List<List<String>> lists = g.groupAnagrams(ss);
+//        for (List<String> l : lists) {
+//            out.println(l);
+//        }
+
+//        _640_SolveTheEquation s = new _640_SolveTheEquation();
+//        String s1 = s.solveEquation("0x=0");
+//        out.print(s1);
+
+//        _522_LongestUncommonSubsequenceII l = new _522_LongestUncommonSubsequenceII();
+//        int luSlength = l.findLUSlength(new String[]{"abcde", "abcde", ""});
+//        out.print(luSlength);
 
 //        _46_Permutations p = new _46_Permutations();
 //        List<List<Integer>> permute = p.permute(new int[]{1, 2, 3});
