@@ -5,7 +5,7 @@ import com.test.leetcode.common.ListNode;
 /**
  * Created by ben on 2017/6/26.
  */
-public class ReverseLinkedListII {
+public class _92_ReverseLinkedListII {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || m >= n) {
             return head;

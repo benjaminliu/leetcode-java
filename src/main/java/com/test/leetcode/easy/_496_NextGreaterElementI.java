@@ -10,7 +10,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/24.
  */
-public class NextGreaterElementI {
+public class _496_NextGreaterElementI {
     public int[] nextGreaterElement(int[] findNums, int[] nums) {
         if (findNums == null || nums == null || findNums.length > nums.length) {
             return new int[0];

@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/5/20.
  */
-public class SortCharactersByFrequency {
+public class _451_SortCharactersByFrequency {
     public String frequencySort(String s) {
         if (s == null || s.length() < 3) {
             return s;

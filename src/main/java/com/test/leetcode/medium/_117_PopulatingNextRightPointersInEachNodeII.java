@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/6/2.
  */
-public class PopulatingNextRightPointersInEachNodeII {
+public class _117_PopulatingNextRightPointersInEachNodeII {
     public class TreeLinkNode {
         int val;
         TreeLinkNode left, right, next;

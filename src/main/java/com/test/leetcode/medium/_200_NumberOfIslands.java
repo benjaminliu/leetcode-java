@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/6/3.
  */
-public class NumberOfIslands {
+public class _200_NumberOfIslands {
 
     private int count;
 

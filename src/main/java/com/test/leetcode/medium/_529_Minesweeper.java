@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/20.
  */
-public class Minesweeper {
+public class _529_Minesweeper {
     private static final char M = 'M';
     private static final char E = 'E';
     private static final char B = 'B';

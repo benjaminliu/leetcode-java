@@ -23,10 +23,51 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _50_Pow p = new _50_Pow();
-        double v = p.myPow(2.00000,
-                -2147483648);
-        out.print(v);
+        _637_AverageOfLevelsInBinaryTree a = new _637_AverageOfLevelsInBinaryTree();
+        TreeNode root = new TreeNode(3);
+        root.left = new TreeNode(9);
+        root.right = new TreeNode(20);
+        root.right.left = new TreeNode(15);
+        root.right.right = new TreeNode(7);
+        List<Double> doubles = a.averageOfLevels(root);
+        out.print(doubles);
+
+//        TreeNode t1 = new TreeNode(1);
+//        TreeNode tl1 = new TreeNode(3);
+//        TreeNode tll1 = new TreeNode(5);
+//        TreeNode tr1 = new TreeNode(2);
+//
+//        t1.left = tl1;
+//        t1.right = tr1;
+//        tl1.left = tll1;
+//
+//        TreeNode t2 = new TreeNode(2);
+//        TreeNode tl2 = new TreeNode(1);
+//        TreeNode tlr2 = new TreeNode(4);
+//        TreeNode tr2 = new TreeNode(3);
+//        TreeNode trr2 = new TreeNode(7);
+//
+//        t2.left = tl2;
+//        t2.right = tr2;
+//        tl2.right = tlr2;
+//        tr2.right = trr2;
+
+//        TreeNode t1 = new TreeNode(1);
+//        TreeNode t2 = new TreeNode(1);
+//
+//
+//        _617_MergeTwoBinaryTrees m = new _617_MergeTwoBinaryTrees();
+//        TreeNode treeNode = m.mergeTrees(t1, t2);
+//        out.print(treeNode);
+
+//        _205_IsomorphicStrings i = new _205_IsomorphicStrings();
+//        boolean isomorphic = i.isIsomorphic("egg", "add");
+//        out.print(isomorphic);
+
+//        _50_Pow p = new _50_Pow();
+//        double v = p.myPow(2.00000,
+//                -2147483648);
+//        out.print(v);
 
 //        _49_GroupAnagrams g = new _49_GroupAnagrams();
 //      //  String[] ss = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
@@ -295,7 +336,7 @@ public class Main {
 //        ListNode head = new ListNode(1);
 //        head.next = new ListNode(2);
 //        head.next.next = new ListNode(3);
-//        ReverseLinkedListII r = new ReverseLinkedListII();
+//        _92_ReverseLinkedListII r = new _92_ReverseLinkedListII();
 //        ListNode listNode = r.reverseBetween2(head, 2, 3);
 //
 //        while (listNode != null) {
@@ -395,7 +436,7 @@ public class Main {
 //        int[] nums1 = {4, 1, 2};
 //        int[] nums2 = {1, 3, 4, 2};
 //
-//        NextGreaterElementI n = new NextGreaterElementI();
+//        _496_NextGreaterElementI n = new _496_NextGreaterElementI();
 //        int[] ints = n.nextGreaterElement(nums1, nums2);
 //        out.print(Arrays.toString(ints));
 
@@ -407,11 +448,11 @@ public class Main {
 //        out.print(s);
 
 //        int[] nums = {1, 2, 3, 4};
-//        ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
+//        _238_ProductOfArrayExceptSelf productOfArrayExceptSelf = new _238_ProductOfArrayExceptSelf();
 //        int[] ints = productOfArrayExceptSelf.productExceptSelf(nums);
 //        out.print(Arrays.toString(ints));
 //        String s ="tree";
-//        SortCharactersByFrequency sortCharactersByFrequency = new SortCharactersByFrequency();
+//        _451_SortCharactersByFrequency sortCharactersByFrequency = new _451_SortCharactersByFrequency();
 //        String s1 = sortCharactersByFrequency.frequencySort(s);
 //        out.print(s1);
 
@@ -452,7 +493,7 @@ public class Main {
 //        out.print(i);
 
 //        int[][] people = {{7, 0}, {4, 4}, {7, 1}, {5, 0}, {6, 1}, {5, 2}};
-//        QueueReconstructionByHeight queueReconstructionByHeight = new QueueReconstructionByHeight();
+//        _406_QueueReconstructionByHeight queueReconstructionByHeight = new _406_QueueReconstructionByHeight();
 //        int[][] ints = queueReconstructionByHeight.reconstructQueue(people);
 //
 //        for (int i = 0; i < ints.length; i++) {

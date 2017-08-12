@@ -5,7 +5,7 @@ import java.util.HashSet;
 /**
  * Created by ben on 2017/6/27.
  */
-public class ValidSquare {
+public class _593_ValidSquare {
     public boolean validSquare(int[] p1, int[] p2, int[] p3, int[] p4) {
         HashSet set = new HashSet();
         int d1 = distance(p1, p2);

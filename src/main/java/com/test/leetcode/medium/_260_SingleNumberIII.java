@@ -6,7 +6,7 @@ import java.util.Set;
 /**
  * Created by ben on 2017/5/21.
  */
-public class SingleNumberIII {
+public class _260_SingleNumberIII {
     public int[] singleNumber(int[] nums) {
         if (nums == null || nums.length < 3) {
             return nums;

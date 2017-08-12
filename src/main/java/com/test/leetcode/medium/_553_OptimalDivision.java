@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/18.
  */
-public class OptimalDivision {
+public class _553_OptimalDivision {
 
     public String optimalDivision(int[] nums) {
         if (nums == null || nums.length == 0) {

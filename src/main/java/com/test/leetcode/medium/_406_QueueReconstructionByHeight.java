@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/5/18.
  */
-public class QueueReconstructionByHeight {
+public class _406_QueueReconstructionByHeight {
     public class Node {
         int height;
         int k;

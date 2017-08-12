@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/22.
  */
-public class ProductOfArrayExceptSelf {
+public class _238_ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length < 2) {
             return nums;
