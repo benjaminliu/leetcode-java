@@ -5,7 +5,7 @@ import com.test.leetcode.common.ListNode;
 /**
  * Created by ben on 2017/6/26.
  */
-public class LinkedListCycleII {
+public class _142_LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         if (null == head || head.next == null) {
             return null;

@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/6/14.
  */
-public class CombinationSumIII {
+public class _216_CombinationSumIII {
     public List<List<Integer>> combinationSum3(int k, int n) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> cur = new ArrayList<>();

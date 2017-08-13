@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * Created by ben on 2017/6/12.
  */
-public class LongestSubstringWithoutRepeatingCharacters {
+public class _3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         if (s.length() == 0) return 0;
         HashMap<Character, Integer> map = new HashMap<>();

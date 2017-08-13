@@ -7,14 +7,14 @@ import java.util.Random;
 /**
  * Created by ben on 2017/5/24.
  */
-public class LinkedListRandomNode2 {
+public class _382_LinkedListRandomNode2 {
 
     private ListNode h;
     private Random random;
 
     /** @param head The linked list's head.
     Note that the head is guaranteed to be not null, so it contains at least one node. */
-    public LinkedListRandomNode2(ListNode head) {
+    public _382_LinkedListRandomNode2(ListNode head) {
         h = head;
         random = new Random();
     }

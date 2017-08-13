@@ -5,7 +5,7 @@ import com.test.leetcode.common.TreeNode;
 /**
  * Created by ben on 2017/6/2.
  */
-public class LowestCommonAncestorOfABinaryTree {
+public class _236_LowestCommonAncestorOfABinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (null == root || root == p || root == q) {
             return root;

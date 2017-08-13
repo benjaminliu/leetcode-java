@@ -7,7 +7,7 @@ import java.util.Stack;
 /**
  * Created by ben on 2017/5/18.
  */
-public class ArithmeticSlices {
+public class _413_ArithmeticSlices {
     public int numberOfArithmeticSlices(int[] A) {
         if (A == null || A.length < 3) {
             return 0;

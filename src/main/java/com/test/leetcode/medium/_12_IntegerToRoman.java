@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/31.
  */
-public class IntegerToRoman {
+public class _12_IntegerToRoman {
 
     private static final String[] M = {"", "M", "MM", "MMM"};
     private static final String[] C = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};

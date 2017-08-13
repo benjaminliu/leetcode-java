@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * Created by ben on 2017/5/19.
  */
-public class FindLargestValueInEachTreeRow {
+public class _515_FindLargestValueInEachTreeRow {
 
     public class TreeNodeWarpper {
         TreeNode node;

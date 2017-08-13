@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/15.
  */
-public class BattleshipsInABoard {
+public class _419_BattleshipsInABoard {
     private final static char x = 'X';
 
     public int countBattleships(char[][] board) {

@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/15.
  */
-public class ComplexNumberMultiplication {
+public class _537_ComplexNumberMultiplication {
     public String complexNumberMultiply(String a, String b) {
         if (a == null || a.length() < 4) {
             throw new IllegalArgumentException("Illegal a");

@@ -3,7 +3,7 @@ package com.test.leetcode.easy;
 /**
  * Created by ben on 2017/5/20.
  */
-public class MinimumMovesToEqualArrayElements {
+public class _453_MinimumMovesToEqualArrayElements {
     public int minMoves(int[] nums) {
         if (nums == null || nums.length < 2) {
             return 0;

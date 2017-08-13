@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/19.
  */
-public class BeautifulArrangement {
+public class _526_BeautifulArrangement {
     private int count = 0;
 
     public int countArrangement(int N) {

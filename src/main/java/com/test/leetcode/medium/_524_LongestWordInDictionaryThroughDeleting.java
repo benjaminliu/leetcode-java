@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by ben on 2017/6/13.
  */
-public class LongestWordInDictionaryThroughDeleting {
+public class _524_LongestWordInDictionaryThroughDeleting {
     public String findLongestWord(String s, List<String> d) {
         if (s == null || d == null) {
             return "";

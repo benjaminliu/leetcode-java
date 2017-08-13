@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/15.
  */
-public class CountingBits {
+public class _338_CountingBits {
     //[0,1,1,2,2]
     public int[] countBits(int num) {
         if (num == 0) {

@@ -7,7 +7,7 @@ import java.util.Random;
 /**
  * Created by ben on 2017/5/24.
  */
-public class LinkedListRandomNode {
+public class _382_LinkedListRandomNode {
     private ListNode head;
     private Random random;
 
@@ -15,7 +15,7 @@ public class LinkedListRandomNode {
      * @param head The linked list's head.
      *             Note that the head is guaranteed to be not null, so it contains at least one node.
      */
-    public LinkedListRandomNode(ListNode head) {
+    public _382_LinkedListRandomNode(ListNode head) {
         if (head == null) {
             throw new IllegalArgumentException("head");
         }

@@ -20,7 +20,6 @@ public class _28_ImplementStrStr {
         for (char c : needle.toCharArray()) {
             sum += (int) c;
         }
-
         long tempSum = 0;
         for (int i = 0; i < needle.length() - 1; i++) {
             tempSum += (int) haystack.charAt(i);

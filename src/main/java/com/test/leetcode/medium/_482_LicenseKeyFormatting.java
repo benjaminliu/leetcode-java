@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/6/13.
  */
-public class LicenseKeyFormatting {
+public class _482_LicenseKeyFormatting {
     public String licenseKeyFormatting(String S, int K) {
         if (S == null) {
             return S;

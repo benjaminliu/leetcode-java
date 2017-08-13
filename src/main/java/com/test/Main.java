@@ -364,11 +364,11 @@ public class Main {
 //
 //        String s = a.addStrings("1", "9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999");
 //        out.print(s);
-//        CombinationSumIV c = new CombinationSumIV();
+//        _377_CombinationSumIV c = new _377_CombinationSumIV();
 //        int i = c.combinationSum4(new int[]{1, 2, 3}, 4);
 //        out.print(i);
 
-//        LicenseKeyFormatting l = new LicenseKeyFormatting();
+//        _482_LicenseKeyFormatting l = new _482_LicenseKeyFormatting();
 //        String aaaa = l.licenseKeyFormatting("2-4A0r7-4k", 4);
 //        out.print(aaaa);
 
@@ -481,14 +481,14 @@ public class Main {
 //
 //        rootr.right = root9;
 //
-//        FindLargestValueInEachTreeRow findLargestValueInEachTreeRow = new FindLargestValueInEachTreeRow();
+//        _515_FindLargestValueInEachTreeRow findLargestValueInEachTreeRow = new _515_FindLargestValueInEachTreeRow();
 //        List<Integer> integers = findLargestValueInEachTreeRow.largestValues(root);
 //
 //        out.print(integers);
 
 
 //        int[] a = {1, 2, 3, 4,5,6};
-//        ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
+//        _413_ArithmeticSlices arithmeticSlices = new _413_ArithmeticSlices();
 //        int i = arithmeticSlices.numberOfArithmeticSlices(a);
 //        out.print(i);
 
@@ -506,21 +506,21 @@ public class Main {
 //        double[] doubles = slidingWindowMedian.medianSlidingWindow(nums, 3);
 //        out.print(Arrays.toString(doubles));
 
-//        FindBottomLeftTreeValue.TreeNode node = new FindBottomLeftTreeValue.TreeNode(2);
-//        node.left = new FindBottomLeftTreeValue.TreeNode(1);
-//        node.right = new FindBottomLeftTreeValue.TreeNode(3);
-//        FindBottomLeftTreeValue findBottomLeftTreeValue = new FindBottomLeftTreeValue();
+//        _513_FindBottomLeftTreeValue.TreeNode node = new _513_FindBottomLeftTreeValue.TreeNode(2);
+//        node.left = new _513_FindBottomLeftTreeValue.TreeNode(1);
+//        node.right = new _513_FindBottomLeftTreeValue.TreeNode(3);
+//        _513_FindBottomLeftTreeValue findBottomLeftTreeValue = new _513_FindBottomLeftTreeValue();
 //        int bottomLeftValue = findBottomLeftTreeValue.findBottomLeftValue(node);
 //
 //        out.print(bottomLeftValue);
 
-//        CountingBits countingBits = new CountingBits();
+//        _338_CountingBits countingBits = new _338_CountingBits();
 //        int[] ints = countingBits.countBits(8);
 //
 //        out.print(Arrays.toString(ints));
 
 
-//        EncodeAndDecodeTinyURL encodeAndDecodeTinyURL = new EncodeAndDecodeTinyURL();
+//        _535_EncodeAndDecodeTinyURL encodeAndDecodeTinyURL = new _535_EncodeAndDecodeTinyURL();
 //        String url = "https://leetcode.com/problems/design-tinyurl";
 //        String encode = encodeAndDecodeTinyURL.encode(url);
 //        String decode = encodeAndDecodeTinyURL.decode(encode);

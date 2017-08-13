@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/30.
  */
-public class RomanToInteger {
+public class _13_RomanToInteger {
     private static Map<Character, Integer> map = new HashMap() {
         {
             put('I', 1);

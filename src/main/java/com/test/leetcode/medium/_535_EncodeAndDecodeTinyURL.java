@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/15.
  */
-public class EncodeAndDecodeTinyURL {
+public class _535_EncodeAndDecodeTinyURL {
 
     private static final String elements = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final String PREFIX = "http://tinyurl.com/";

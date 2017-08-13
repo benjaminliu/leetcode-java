@@ -5,7 +5,7 @@ import com.test.leetcode.common.TreeNode;
 /**
  * Created by ben on 2017/5/20.
  */
-public class ConvertBSTToGreaterTree {
+public class _538_ConvertBSTToGreaterTree {
 
     private int last = 0;
 

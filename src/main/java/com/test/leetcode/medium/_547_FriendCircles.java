@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/5/21.
  */
-public class FriendCircles {
+public class _547_FriendCircles {
 
     public int findCircleNum(int[][] M) {
         if (M == null || M.length < 1 || M[0] == null || M[0].length < 1) {

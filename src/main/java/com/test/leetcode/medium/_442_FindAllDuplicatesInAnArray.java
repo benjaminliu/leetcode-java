@@ -8,7 +8,7 @@ import java.util.Set;
 /**
  * Created by ben on 2017/5/19.
  */
-public class FindAllDuplicatesInAnArray {
+public class _442_FindAllDuplicatesInAnArray {
     public List<Integer> findDuplicates(int[] nums) {
         Set<Integer> set = new HashSet<>();
         List<Integer> result = new ArrayList<>();

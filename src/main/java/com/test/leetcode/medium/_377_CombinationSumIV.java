@@ -3,7 +3,7 @@ package com.test.leetcode.medium;
 /**
  * Created by ben on 2017/6/14.
  */
-public class CombinationSumIV {
+public class _377_CombinationSumIV {
     public int combinationSum4(int[] nums, int target) {
         if (nums == null) {
             return 0;
