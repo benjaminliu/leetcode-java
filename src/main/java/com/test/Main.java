@@ -23,14 +23,45 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _637_AverageOfLevelsInBinaryTree a = new _637_AverageOfLevelsInBinaryTree();
-        TreeNode root = new TreeNode(3);
-        root.left = new TreeNode(9);
-        root.right = new TreeNode(20);
-        root.right.left = new TreeNode(15);
-        root.right.right = new TreeNode(7);
-        List<Double> doubles = a.averageOfLevels(root);
-        out.print(doubles);
+        TreeNode root = new TreeNode(1);
+//        root.left = new TreeNode(2);
+//        root.left.left = new TreeNode(3);
+//        root.left.left.left= new TreeNode(4);
+        root.right = new TreeNode(2);
+        root.right.right = new TreeNode(3);
+//        root.right.right.right = new TreeNode(4);
+        _110_BalancedBinaryTree b = new _110_BalancedBinaryTree();
+        boolean balanced = b.isBalanced(root);
+        out.print(balanced);
+
+
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(9);
+//        root.right = new TreeNode(20);
+//        root.right.left = new TreeNode(15);
+//        root.right.right = new TreeNode(7);
+//        _107_BinaryTreeLevelOrderTraversal_II b = new _107_BinaryTreeLevelOrderTraversal_II();
+//        List<List<Integer>> lists = b.levelOrderBottom(root);
+//        for(List<Integer> ls : lists){
+//            out.println(ls);
+//        }
+
+//        _67_AddBinary a = new _67_AddBinary();
+//        String s = a.addBinary("1010", "1011");
+//        out.print(s);
+
+//        _53_MaximumSubarray m = new _53_MaximumSubarray();
+//        int i = m.maxSubArray(new int[]{1});
+//        out.print(i);
+
+//        _637_AverageOfLevelsInBinaryTree a = new _637_AverageOfLevelsInBinaryTree();
+//        TreeNode root = new TreeNode(3);
+//        root.left = new TreeNode(9);
+//        root.right = new TreeNode(20);
+//        root.right.left = new TreeNode(15);
+//        root.right.right = new TreeNode(7);
+//        List<Double> doubles = a.averageOfLevels(root);
+//        out.print(doubles);
 
 //        TreeNode t1 = new TreeNode(1);
 //        TreeNode tl1 = new TreeNode(3);
