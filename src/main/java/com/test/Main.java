@@ -23,16 +23,73 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        TreeNode root = new TreeNode(1);
-//        root.left = new TreeNode(2);
-//        root.left.left = new TreeNode(3);
-//        root.left.left.left= new TreeNode(4);
-        root.right = new TreeNode(2);
-        root.right.right = new TreeNode(3);
-//        root.right.right.right = new TreeNode(4);
-        _110_BalancedBinaryTree b = new _110_BalancedBinaryTree();
-        boolean balanced = b.isBalanced(root);
-        out.print(balanced);
+        _219_ContainsDuplicate_II c = new _219_ContainsDuplicate_II();
+        c.containsNearbyDuplicate(new int[]{1,2,  1},0);
+
+//        _204_CountPrimes c = new _204_CountPrimes();
+//        int i = c.countPrimes2(499979);
+//        out.print(i);
+
+//        ListNode n = new ListNode(1);
+//        n.next = new ListNode(1);
+////        n.next.next = new ListNode(3);
+////        n.next.next.next = new ListNode(4);
+////        n.next.next.next.next = new ListNode(5);
+////        n.next.next.next.next.next = new ListNode(6);
+//        _203_RemoveLinkedListElements r = new _203_RemoveLinkedListElements();
+//        ListNode listNode = r.removeElements(n, 1);
+//
+//        printListNode(listNode);
+
+
+//        _191_NumberOf1Bits n = new _191_NumberOf1Bits();
+//        int i = n.hammingWeight(  -0  );
+//        out.print(i);
+
+//        _190_ReverseBits r = new _190_ReverseBits();
+//        int i = r.reverseBits1(43261596);
+//        out.print(i);
+
+//        _189_RotateArray r = new _189_RotateArray();
+//        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13};
+//        r.rotate(nums, 17);
+//        out.print(Arrays.toString(nums));
+
+//        _168_ExcelSheetColumnTitle e  = new _168_ExcelSheetColumnTitle();
+//        String s = e.convertToTitle(27);
+//        out.print(s);
+
+//        _155_MinStack m = new _155_MinStack();
+//        m.push(-2);
+//        m.push(0);
+//        m.push(-3);
+//
+//        int i = m.getMin();
+//        out.println(i);
+//        m.pop();
+//        i = m.top();
+//        out.println(i);
+//        i = m.getMin();
+//        out.println(i);
+
+//        _125_ValidPalindrome v = new _125_ValidPalindrome();
+//        boolean ab = v.isPalindrome(" apG0i4maAs::sA0m4i0Gp0");
+//        out.print(ab);
+
+//        _371_SumOfTwoIntegers s = new _371_SumOfTwoIntegers();
+//        int sum1 = s.getSum1(3, 1);
+//        out.println(sum1);
+
+//        TreeNode root = new TreeNode(1);
+////        root.left = new TreeNode(2);
+////        root.left.left = new TreeNode(3);
+////        root.left.left.left= new TreeNode(4);
+//        root.right = new TreeNode(2);
+//        root.right.right = new TreeNode(3);
+////        root.right.right.right = new TreeNode(4);
+//        _110_BalancedBinaryTree b = new _110_BalancedBinaryTree();
+//        boolean balanced = b.isBalanced(root);
+//        out.print(balanced);
 
 
 //        TreeNode root = new TreeNode(3);
