@@ -23,8 +23,20 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _219_ContainsDuplicate_II c = new _219_ContainsDuplicate_II();
-        c.containsNearbyDuplicate(new int[]{1,2,  1},0);
+        ListNode n = new ListNode(1);
+        n.next = new ListNode(1);
+        n.next.next = new ListNode(2);
+        n.next.next.next = new ListNode(1);
+        _234_PalindromeLinkedList p = new _234_PalindromeLinkedList();
+        boolean palindrome = p.isPalindrome(n);
+        out.print(palindrome);
+
+//        _659_SplitArrayIntoConsecutiveSubsequences s = new _659_SplitArrayIntoConsecutiveSubsequences();
+//        boolean possible = s.isPossible(new int[]{1, 2, 3, 3, 4, 4, 5, 5});
+//        out.print(possible);
+
+//        _219_ContainsDuplicate_II c = new _219_ContainsDuplicate_II();
+//        c.containsNearbyDuplicate(new int[]{1,2,  1},0);
 
 //        _204_CountPrimes c = new _204_CountPrimes();
 //        int i = c.countPrimes2(499979);
