@@ -23,13 +23,21 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        ListNode n = new ListNode(1);
-        n.next = new ListNode(1);
-        n.next.next = new ListNode(2);
-        n.next.next.next = new ListNode(1);
-        _234_PalindromeLinkedList p = new _234_PalindromeLinkedList();
-        boolean palindrome = p.isPalindrome(n);
-        out.print(palindrome);
+        _290_WordPattern w = new _290_WordPattern();
+        boolean abba = w.wordPattern("abba", "dog cat cat dog");
+        out.print(abba);
+
+//        _278_FirstBadVersion f = new _278_FirstBadVersion();
+//        int i = f.firstBadVersion(2126753390);
+//        out.print(i);
+
+//        ListNode n = new ListNode(1);
+//        n.next = new ListNode(1);
+//        n.next.next = new ListNode(2);
+//        n.next.next.next = new ListNode(1);
+//        _234_PalindromeLinkedList p = new _234_PalindromeLinkedList();
+//        boolean palindrome = p.isPalindrome(n);
+//        out.print(palindrome);
 
 //        _659_SplitArrayIntoConsecutiveSubsequences s = new _659_SplitArrayIntoConsecutiveSubsequences();
 //        boolean possible = s.isPossible(new int[]{1, 2, 3, 3, 4, 4, 5, 5});
