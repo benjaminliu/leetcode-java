@@ -23,9 +23,35 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _290_WordPattern w = new _290_WordPattern();
-        boolean abba = w.wordPattern("abba", "dog cat cat dog");
-        out.print(abba);
+        _342_PowerOfFour p= new _342_PowerOfFour();
+        boolean powerOfFour = p.isPowerOfFour(5);
+        out.print(powerOfFour);
+
+//        _326_PowerOfThree p = new _326_PowerOfThree();
+//        boolean powerOfThree = p.isPowerOfThree(45);
+//        out.print(powerOfThree);
+
+//        _138_CopyListWithRandomPointer.RandomListNode r = new _138_CopyListWithRandomPointer.RandomListNode(1);
+//        r.next = new _138_CopyListWithRandomPointer.RandomListNode(2);
+//        r.next.next = new _138_CopyListWithRandomPointer.RandomListNode(2);
+//        r.next.next.next = new _138_CopyListWithRandomPointer.RandomListNode(2);
+//
+//        r.random = r.next.next;
+//        r.next.random = r;
+//        r.next.next.random = r.random;
+//        r.next.next.next.random = r.next;
+//
+//        _138_CopyListWithRandomPointer c = new _138_CopyListWithRandomPointer();
+//        _138_CopyListWithRandomPointer.RandomListNode randomListNode = c.copyRandomList(r);
+//
+//        while (randomListNode != null) {
+//            out.println(randomListNode.label + "->" + randomListNode.random.label);
+//            randomListNode = randomListNode.next;
+//        }
+
+//        _290_WordPattern w = new _290_WordPattern();
+//        boolean abba = w.wordPattern("abba", "dog cat cat dog");
+//        out.print(abba);
 
 //        _278_FirstBadVersion f = new _278_FirstBadVersion();
 //        int i = f.firstBadVersion(2126753390);
