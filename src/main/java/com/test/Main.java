@@ -23,9 +23,17 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _342_PowerOfFour p= new _342_PowerOfFour();
-        boolean powerOfFour = p.isPowerOfFour(5);
-        out.print(powerOfFour);
+        _540_SingleElementInASortedArray s = new _540_SingleElementInASortedArray();
+        int i = s.singleNonDuplicate(new int[]{1, 1, 2, 2, 4, 4, 5, 5,9});
+        out.print(i);
+
+//        _319_BulbSwitcher b =new _319_BulbSwitcher();
+//        int i = b.bulbSwitch(4);
+//        out.print(i);
+
+//        _342_PowerOfFour p= new _342_PowerOfFour();
+//        boolean powerOfFour = p.isPowerOfFour(5);
+//        out.print(powerOfFour);
 
 //        _326_PowerOfThree p = new _326_PowerOfThree();
 //        boolean powerOfThree = p.isPowerOfThree(45);
