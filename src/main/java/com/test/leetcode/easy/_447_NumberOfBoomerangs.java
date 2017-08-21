@@ -6,7 +6,7 @@ import java.util.Map;
 /**
  * Created by ben on 2017/5/31.
  */
-public class NumberOfBoomerangs {
+public class _447_NumberOfBoomerangs {
     public int numberOfBoomerangs(int[][] points) {
         int result = 0;
         Map<Integer, Integer> map = new HashMap<>();
