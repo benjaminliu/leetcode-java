@@ -23,9 +23,16 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _342_PowerOfFour p= new _342_PowerOfFour();
-        boolean powerOfFour = p.isPowerOfFour(5);
-        out.print(powerOfFour);
+        _374_GuessNumberHigherOrLower g = new _374_GuessNumberHigherOrLower();
+        g.guessNumber(10);
+
+//        _367_ValidPerfectSquare v = new _367_ValidPerfectSquare();
+//        boolean perfectSquare = v.isPerfectSquare(16);
+//        out.print(perfectSquare);
+
+//        _342_PowerOfFour p= new _342_PowerOfFour();
+//        boolean powerOfFour = p.isPowerOfFour(5);
+//        out.print(powerOfFour);
 
 //        _326_PowerOfThree p = new _326_PowerOfThree();
 //        boolean powerOfThree = p.isPowerOfThree(45);
