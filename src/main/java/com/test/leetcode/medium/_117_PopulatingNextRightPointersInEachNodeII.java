@@ -1,17 +1,12 @@
-package com.test.leetcode.medium;
+﻿package com.test.leetcode.medium;
+
+import com.test.leetcode.common.TreeLinkNode;
 
 /**
  * Created by ben on 2017/6/2.
  */
 public class _117_PopulatingNextRightPointersInEachNodeII {
-    public class TreeLinkNode {
-        int val;
-        TreeLinkNode left, right, next;
 
-        TreeLinkNode(int x) {
-            val = x;
-        }
-    }
 
     public void connect(TreeLinkNode root) {
         TreeLinkNode queue = root;
