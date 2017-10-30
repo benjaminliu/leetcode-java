@@ -5,10 +5,7 @@ package com.test.leetcode.easy;
  */
 public class _53_MaximumSubarray {
 
-    //已知一个数组A[n]及其最大子数组max_subarray(A[n])，我们添加一个元素A[n+1]进去。则有三种可能的情况：
-    //1. 添加进去元素的数组A[n+1]不影响A[n]的最大子数组。
-    //2. 单独的A[n+1]
-    //3. 以max_subarray(A[n])和A[n+1]以及两者之间的元素组合起来生成的数组。
+
     public int maxSubArray(int[] nums) {
         if (null == nums || nums.length == 0) return 0;
 

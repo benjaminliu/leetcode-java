@@ -1,4 +1,4 @@
-﻿package com.test.leetcode.medium;
+package com.test.leetcode.medium;
 
 import com.test.leetcode.common.ListNode;
 

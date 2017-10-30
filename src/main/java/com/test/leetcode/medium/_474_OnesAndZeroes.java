@@ -4,7 +4,7 @@ package com.test.leetcode.medium;
  * Created by ben on 2017/8/12.
  */
 public class _474_OnesAndZeroes {
-    //类似 0,1 背包问题
+
     public int findMaxForm(String[] strs, int m, int n) {
         if (null == strs || strs.length == 0) return 0;
 

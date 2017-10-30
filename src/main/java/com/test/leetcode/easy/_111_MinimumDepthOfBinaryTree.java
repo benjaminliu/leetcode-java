@@ -9,8 +9,8 @@ import java.util.Queue;
  * Created by ben on 2017/8/13.
  */
 public class _111_MinimumDepthOfBinaryTree {
-    private int min = Integer.MAX_VALUE; // 记录树的最小深度
-    private int cur = 0; // i当前处理的树的尝试
+    private int min = Integer.MAX_VALUE;
+    private int cur = 0;
 
     public int minDepth(TreeNode root) {
 
@@ -25,23 +25,23 @@ public class _111_MinimumDepthOfBinaryTree {
             return;
         }
 
-        cur++; // 当前处理的层次加1
+        cur++;
 
-        // 如果是叶节点，并且路径比记录的最小还小
+
         if (node.left == null && node.right == null && cur < min) {
-            min = cur; // 更新最小值
+            min = cur;
         }
-        // 处理左子树
+
         if (node.left != null) {
             depth(node.left);
         }
 
-        // 处理右子树
+
         if (node.right != null) {
             depth(node.right);
         }
 
-        cur--; // 还原
+        cur--;
     }
 
     public int minDepth1(TreeNode root) {

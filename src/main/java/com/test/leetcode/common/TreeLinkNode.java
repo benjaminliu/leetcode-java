@@ -1,4 +1,4 @@
-﻿package com.test.leetcode.common;
+package com.test.leetcode.common;
 
 /**
  * Created by ben on 2017/9/28.

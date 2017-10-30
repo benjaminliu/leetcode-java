@@ -1,4 +1,4 @@
-﻿package com.test.leetcode.medium;
+package com.test.leetcode.medium;
 
 /**
  * Created by ben on 2017/9/29.

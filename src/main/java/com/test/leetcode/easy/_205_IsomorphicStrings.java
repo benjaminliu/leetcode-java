@@ -31,7 +31,7 @@ public class _205_IsomorphicStrings {
         int i2;
 
         //store last same char's position
-        //保存相同字符 上次出现的位置，如果上次出现的位置不同，返回false
+
         for (int i = 0; i < len; i++) {
             c1 = s.charAt(i);
             c2 = t.charAt(i);
@@ -61,7 +61,7 @@ public class _205_IsomorphicStrings {
         return true;
     }
 
-    //上次出现的位置加1
+
     public static boolean isIsomorphic2(String s, String t) {
         int[] pos_s = new int[256];
         int[] pos_t = new int[256];
