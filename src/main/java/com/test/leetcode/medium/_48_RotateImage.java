@@ -12,6 +12,7 @@ public class _48_RotateImage {
         int len = matrix.length;
         int temp;
 
+        //对角线翻转
         for (int i = 0; i < len; i++) {
             for (int j = i + 1; j < len; j++) {
                 temp = matrix[i][j];
@@ -21,6 +22,7 @@ public class _48_RotateImage {
         }
         int half = len / 2;
         int idxj;
+        //竖着的中线 翻转
         for (int i = 0; i < len; i++) {
             for (int j = 0; j < half; j++) {
                 temp = matrix[i][j];

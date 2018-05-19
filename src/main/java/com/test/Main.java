@@ -8,6 +8,7 @@ import com.test.leetcode.hard.*;
 import com.test.leetcode.easy.*;
 
 import com.test.others.*;
+import com.test.sort.InsertSort;
 
 
 import java.util.ArrayList;
@@ -25,16 +26,77 @@ public class Main {
     public static void main(String args[]) {
         long startTime = System.currentTimeMillis();
 
-        _240_SearchA2DMatrix_II s = new _240_SearchA2DMatrix_II();
-        boolean b = s.searchMatrix1(new int[][]{
-                        {1, 4, 7, 11, 15},
-                        {2, 5, 8, 12, 19},
-                        {3, 6, 9, 16, 22},
-                        {10, 13, 14, 17, 24},
-                        {18, 21, 23, 26, 30}},
-                5);
+        _306_AdditiveNumber  a = new _306_AdditiveNumber();
+        boolean additiveNumber = a.isAdditiveNumber("199100199");
+        out.print(additiveNumber);
 
-        out.print(b);
+//        int[] nums = new int[]{7, 2, 7, 2, 0};
+//        _307_RangeSumQuery_Mutable r = new _307_RangeSumQuery_Mutable(nums);
+//
+//        r.update(4, 6);
+//
+//        r.update(0, 2);
+//
+//        r.update(0, 9);
+//
+//        int i = r.sumRange(4, 4);
+//        out.println(i);
+//        r.update(3, 8);
+//        i = r.sumRange(0, 4);
+//        out.println(i);
+//        r.update(4, 1);
+//        i = r.sumRange(0, 3);
+//        out.println(i);
+//        i = r.sumRange(0, 4);
+//        out.println(i);
+
+//        int[][] matrix = new int[][]{
+//                {3, 0, 1, 4, 2},
+//                {5, 6, 3, 2, 1},
+//                {1, 2, 0, 1, 5},
+//                {4, 1, 0, 1, 7},
+//                {1, 0, 3, 0, 5}
+//        };
+//
+////        int[][] matrix = new int[][]{{1}, {7}};
+//
+//        _304_RangeSumQuery2D_Immutable r = new _304_RangeSumQuery2D_Immutable(matrix);
+//        int i = r.sumRegion(2, 1, 4, 3);
+//        out.print(i);
+
+//        _299_BullsAndCows b = new _299_BullsAndCows();
+//        String hint = b.getHint("1807", "7810");
+//        out.print(hint);
+
+//        int [][] board = new int[][]{{1, 1}, {1, 0}};
+//        _289_GameOfLife g = new _289_GameOfLife();
+//        g.gameOfLife(board);
+//        for(int[] arr :board ){
+//            out.println(Arrays.toString(arr));
+//        }
+
+//        _279_PerfectSquares p = new _279_PerfectSquares();
+//        int i = p.numSquares(12);
+//        out.print(i);
+
+//        Top_K_BFPRT t = new Top_K_BFPRT();
+//        int bfprt = t.BFPRT(new int[]{9, 8, 7, 6, 5, 4, 3, 2, 1, 0}, 0, 9, 8);
+//        out.print(bfprt);
+
+//        InsertSort i = new InsertSort();
+//        int[] sort = i.sort(new int[]{2, 1, 8, 6, 7, 9, 7});
+//        out.print(Arrays.toString(sort));
+
+//        _240_SearchA2DMatrix_II s = new _240_SearchA2DMatrix_II();
+//        boolean b = s.searchMatrix1(new int[][]{
+//                        {1, 4, 7, 11, 15},
+//                        {2, 5, 8, 12, 19},
+//                        {3, 6, 9, 16, 22},
+//                        {10, 13, 14, 17, 24},
+//                        {18, 21, 23, 26, 30}},
+//                5);
+//
+//        out.print(b);
 
 //        _228_SummaryRanges s = new _228_SummaryRanges();
 //        List<String> strings = s.summaryRanges(new int[]{-2147483648,-2147483647,2147483647});
