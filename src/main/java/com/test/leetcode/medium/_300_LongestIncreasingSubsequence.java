@@ -51,4 +51,33 @@ public class _300_LongestIncreasingSubsequence {
         }
         return size;
     }
+
+    public int lengthOfLIS2(int[] nums) {
+        int[] dp = new int[nums.length];
+        int len = 0;
+
+        for (int x : nums) {
+            int i = Arrays.binarySearch(dp, 0, len, x);
+            if (i < 0) {
+                int j = -(i + 1);
+                System.out.println("x: " + x + ", before: " + i + ", after: " + j);
+                i = j;
+            } else {
+                System.out.println("x: " + x + ", before: " + i);
+            }
+            dp[i] = x;
+
+            System.out.println(Arrays.toString(dp));
+            if (i == len) len++;
+        }
+
+        return len;
+    }
+
+    public static void main(String[] args) {
+        _300_LongestIncreasingSubsequence q = new _300_LongestIncreasingSubsequence();
+        int i = q.lengthOfLIS2(new int[]{10, 9, 2, 5, 3, 7, 101, 18});
+
+        System.out.println(i);
+    }
 }

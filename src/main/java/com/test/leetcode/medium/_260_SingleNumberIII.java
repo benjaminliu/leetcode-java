@@ -48,4 +48,17 @@ public class _260_SingleNumberIII {
         }
         return res;
     }
+
+    public static void main(String[] args) {
+        int temp = 3^5;
+
+        System.out.println(Integer.toBinaryString(temp));
+        System.out.println(Integer.toBinaryString(-temp));
+
+        int a = temp & -temp;
+        System.out.println(Integer.toBinaryString(a));
+
+        System.out.println(3 & a);
+        System.out.println(4 & a);
+    }
 }
